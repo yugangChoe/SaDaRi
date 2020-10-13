@@ -17,7 +17,7 @@
 </head>
 <body style="width:450px">
 <fieldset style="border: 1px solid white;">
-            <legend style="color: #444;"><Strong>genie 로그인1111</Strong></legend>
+            <legend style="color: #444;"><Strong>genie 로그인111</Strong></legend>
             <table>
                 <tr><td><input type="text" id="id" name="id" style="border:1px solid #d2d2d2; width:330px; height: 33px; font-size: 12px;" placeholder="아이디"></td><td rowspan="2"><input type="submit" value="로그인" style="width:78px;height: 78px; background-color: #0eb6e6; border:none; color: white;"></td></tr>
                 <tr><td><input type="password" id="pw" name="pw" style="border:1px solid #d2d2d2; width:330px; height: 33px; font-size: 12px;" placeholder="비밀번호"></td><td></td></tr>

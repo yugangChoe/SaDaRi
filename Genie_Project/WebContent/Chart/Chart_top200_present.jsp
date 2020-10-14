@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link href="Genie.css" rel="stylesheet" type="text/css">
+<link href="../css/Genie.css" rel="stylesheet" type="text/css">
 <title>Top200_present</title>
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js">
 </script>

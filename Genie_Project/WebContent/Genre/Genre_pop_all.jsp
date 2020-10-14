@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link href="Genie.css" rel="stylesheet" type="text/css">
+<link href="../css/Genie.css" rel="stylesheet" type="text/css">
 <title>Genre_pop_all</title>
         <script>
             var login_st=0;

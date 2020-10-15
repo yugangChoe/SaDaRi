@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link href="../css/Genie.css" rel="stylesheet" type="text/css">
+<link href="/Genie_Project/css/Genie.css" rel="stylesheet" type="text/css">
 <title>Top200_week</title>
         <script>
             var login_st=0;
@@ -22,14 +22,14 @@
                     }
                 }
                 function play_one(num){
-                window.open("C:/팀4/play.html","플레이리스트","width=1200, height=630");
+                window.open("/Genie_Project/G_servlet?command=Song_play","플레이리스트","width=1200, height=630");
                 var num=num;
             }
             function play_list(num){
-                window.open("C:/팀4/play.html","플레이리스트","width=1200, height=630");
+                window.open("/Genie_Project/G_servlet?command=Song_play","플레이리스트","width=1200, height=630");
             }
             function login(){
-                window.open("C:/팀4/login.html","로그인","width=470, height=430")
+                window.open("/Genie_Project/G_servlet?command=Login","로그인","width=470, height=430")
             }
         </script>
 </head>
@@ -158,17 +158,17 @@
         <div class="title-1">
             <ul>
 	            <li>
-	                <a href="Chart_top200_present.jsp">
+	                <a href="/Genie_Project/G_servlet?command=Chart_top200_present">
 	                    <img src="C:/팀4/사진/이미지/top_200.png" alt="탑200">
 	                </a>
 	            </li>
 	            <li>
-	                <a href="Chart_genre_kpop_day.jsp">
+	                <a href="/Genie_Project/G_servlet?command=Chart_genre_kpop_day">
 	                    <img src="C:/팀4/사진/이미지/genre_chart.png" alt="장르별차트">
 	                </a>
 	            </li>
 	            <li>
-	                <a href="Chart_MV_day.jsp">
+	                <a href="/Genie_Project/G_servlet?command=Chart_MV_day">
 	                    <img src="C:/팀4/사진/이미지/mv_chart.png" alt="뮤직비디오차트"></a>
 	            </li>
             </ul>
@@ -184,10 +184,10 @@
                 </a>
             </div><!-- date -->
             <ul class="select-term">
-                <li class=""><a href="Chart_top200_present.jsp" class="radius current">실시간</a></li>
-                <li><a href="Chart_top200_day.jsp" class="radius ">일간</a></li>
-                <li><a href="Chart_top200_week.jsp" class="radius ">주간</a></li>
-                <li><a href="Chart_top200_month.jsp" class="radius ">월간</a></li>
+                <li class=""><a href="/Genie_Project/G_servlet?command=Chart_top200_present" class="radius current">실시간</a></li>
+                <li><a href="/Genie_Project/G_servlet?command=Chart_top200_day" class="radius ">일간</a></li>
+                <li><a href="/Genie_Project/G_servlet?command=Chart_top200_week" class="radius ">주간</a></li>
+                <li><a href="/Genie_Project/G_servlet?command=Chart_top200_month" class="radius ">월간</a></li>
             </ul>
         </div><!--chart-date -->
         <div class="song-list">

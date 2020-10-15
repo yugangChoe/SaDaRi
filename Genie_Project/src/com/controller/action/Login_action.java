@@ -18,7 +18,7 @@ public class Login_action implements Action {
 		String url = "login.jsp";
 		G_DAO gD = G_DAO.getInstance();
 		//유저VO작성 요, 리턴은? 필요값은? 
-		request.setAttribute("유저", 유저);
+//		request.setAttribute("유저", 유저);
 		RequestDispatcher dispatcher = request.getRequestDispatcher(url);
 		dispatcher.forward(request, response);
 	}

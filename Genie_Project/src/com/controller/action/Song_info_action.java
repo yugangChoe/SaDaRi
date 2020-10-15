@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.dao.G_DAO;
 import com.dto.SongVO;
 
-public class Song_Info_Action implements Action {
+public class Song_info_action implements Action {
 
 	@Override
 	public void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

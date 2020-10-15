@@ -22,14 +22,14 @@
             }
         }
         function play_one(num){
-            window.open("C:/팀4/play.html","플레이리스트","width=1200, height=630");
+            window.open("../G_servlet?command=Song_play","플레이리스트","width=1200, height=630");
             var num=num;
         }
         function play_list(num){
-            window.open("C:/팀4/play.html","플레이리스트","width=1200, height=630");
+            window.open("../G_servlet?command=Song_play","플레이리스트","width=1200, height=630");
         }
         function login(){
-            window.open("C:/팀4/login.html","로그인","width=470, height=430")
+            window.open("../G_servlet?command=Login","로그인","width=470, height=430")
         }
 	</script>
 </head>
@@ -44,36 +44,36 @@
 					<!-- gnb -->
 					<ul class="menu-list clearfix" id="main_menu">
 						<li>
-							<!-- 지니차트 --> <a href="Chart_top200_present.jsp" class="gnb-menu">지니차트</a>
+							<!-- 지니차트 --> <a href="../G_servlet?command=Chart_top200_present" class="gnb-menu">지니차트</a>
 							<div class="sub_menu" style="width: 48%;">
 								<ul id="sub_menu_chart">
-									<li><a href="Chart_top200_present.jsp">TOP200</a></li>
-									<li><a href="Chart_genre_kpop_day.jsp">장르별 차트</a></li>
-									<li><a href="Chart_MV_day.jsp">뮤직비디오 차트</a></li>
+									<li><a href="../G_servlet?command=Chart_top200_present">TOP200</a></li>
+									<li><a href="../G_servlet?command=Chart_genre_kpop_day">장르별 차트</a></li>
+									<li><a href="../G_servlet?command=Chart_MV_day">뮤직비디오 차트</a></li>
 								</ul>
 							</div>
 						</li>
 						<!-- 지니차트끝 -->
 
 						<li>
-							<!-- 최신음악 --> <a href="Newest_song_hot.jsp" class="gnb-menu">최신음악</a>
+							<!-- 최신음악 --> <a href="../G_servlet?command=Newest_song_hot" class="gnb-menu">최신음악</a>
 							<div class="sub_menu" style="width: 38%;">
 								<ul id="sub_menu_newest">
-									<li><a href="Newest_song_hot.jsp">최신 곡</a></li>
-									<li><a href="Newest_album_hot.jsp">최신 앨범</a></li>
+									<li><a href="../G_servlet?command=Newest_song_hot">최신 곡</a></li>
+									<li><a href="../G_servlet?command=Newest_album_hot">최신 앨범</a></li>
 								</ul>
 							</div>
 						</li>
 						<!-- 최신음악 끝-->
 
 						<li>
-							<!-- 장르음악 --> <a href="Genre_kpop_all.jsp" class="gnb-menu">장르음악</a>
+							<!-- 장르음악 --> <a href="../G_servlet?command=Genre_kpop_all" class="gnb-menu">장르음악</a>
 							<div class="sub_menu" style="width: 24%;">
 								<ul id="sub_menu_genre">
-									<li><a href="Genre_kpop_all.jsp">가요</a></li>
-									<li><a href="Genre_pop_all.jsp">POP</a></li>
-									<li><a href="Genre_OST_all.jsp">OST</a></li>
-									<li><a href="Genre_trot.jsp">트롯</a></li>
+									<li><a href="../G_servlet?command=Genre_kpop_all">가요</a></li>
+									<li><a href="../G_servlet?command=Genre_pop_all">POP</a></li>
+									<li><a href="../G_servlet?command=Genre_OST_all">OST</a></li>
+									<li><a href="../G_servlet?command=Genre_trot">트롯</a></li>
 								</ul>
 							</div>
 						</li>
@@ -133,23 +133,23 @@
 				<!-- title -->
 				<div class="title-1">
 					<ul>
-						<li><a href="Chart_top200_present.jsp"> <img
+						<li><a href="../G_servlet?command=Chart_top200_present"> <img
 								src="C:/팀4/사진/이미지/top_200.png" alt="탑200">
 						</a></li>
-						<li><a href="Chart_genre_kpop_day.jsp"> <img
+						<li><a href="../G_servlet?command=Chart_genre_kpop_day"> <img
 								src="C:/팀4/사진/이미지/genre_chart.png" alt="장르별차트">
 						</a></li>
-						<li><a href="Chart_MV_day.jsp"> <img
+						<li><a href="../G_servlet?command=Chart_MV_day"> <img
 								src="C:/팀4/사진/이미지/mv_chart.png" alt="뮤직비디오차트"></a></li>
 					</ul>
 				</div>
 				<div class="title-line">
 					<h3 style="font: 0/0 a">장르 종류</h3>
 					<ul>
-						<li class="hot"><a href="Chart_genre_kpop_day.jsp">가요</a></li>
-						<li><a href="Chart_genre_pop_day.jsp">POP</a></li>
-						<li><a href="Chart_genre_OST_day.jsp">OST</a></li>
-						<li><a href="Chart_genre_trot.day.jsp">트롯</a></li>
+						<li class="hot"><a href="../G_servlet?command=Chart_genre_kpop_day">가요</a></li>
+						<li><a href="../G_servlet?command=Chart_genre_pop_day">POP</a></li>
+						<li><a href="../G_servlet?command=Chart_genre_OST_day">OST</a></li>
+						<li><a href="../G_servlet?command=Chart_genre_trot.day">트롯</a></li>
 					</ul>
 				</div>
 				<!-- title-line -->
@@ -163,8 +163,8 @@
 					</div>
 					<!-- date -->
 					<ul class="select-term">
-						<li><a href="Chart_genre_kpop_day.jsp" class="radius ">일간</a></li>
-						<li><a href="Chart_genre_kpop_week.jsp" class="radius ">주간</a></li>
+						<li><a href="../G_servlet?command=Chart_genre_kpop_day" class="radius ">일간</a></li>
+						<li><a href="../G_servlet?command=Chart_genre_kpop_week" class="radius ">주간</a></li>
 					</ul>
 				</div>
 				<!--chart-date -->

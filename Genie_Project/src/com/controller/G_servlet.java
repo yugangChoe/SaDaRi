@@ -14,14 +14,14 @@ import com.controller.action.Action;
 /**
  * Servlet implementation class g_Servlet
  */
-@WebServlet("/g_Servlet")
-public class G_Servlet extends HttpServlet {
+@WebServlet("/G_servlet")
+public class G_servlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	/**
 	 * @see HttpServlet#HttpServlet()
 	 */
-	public G_Servlet() {
+	public G_servlet() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
@@ -48,7 +48,7 @@ public class G_Servlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		// TODO Auto-generated method stub
+		request.setCharacterEncoding("UTF-8");
 		doGet(request, response);
 	}
 

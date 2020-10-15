@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.dao.G_DAO;
 import com.dto.SongVO;
 
-public class Song_Play_Action implements Action {
+public class Song_play_action implements Action {
 
 	@Override
 	public void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

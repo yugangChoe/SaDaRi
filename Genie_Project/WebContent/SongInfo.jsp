@@ -66,23 +66,23 @@ ul{
 			</a>
 		</div>
 		<div class="info-zone">
-			<h2 class="name">다이너마이트</h2>
+			<h2 class="name">${songList.getTitle()}</h2>
 			<ul class="info-data">
 				<li><span class="attr"><img
 						src="C:/Users/최유강/Desktop/팀4 (2)/사진/이미지/txt_5.png" alt="아티스트"></span> <span
-					class="value"> 가수이름 받아오기 </span></li>
+					class="value">${songList.getArtist()} </span></li>
 				<li><span class="attr"><img
 						src="C:/Users/최유강/Desktop/팀4 (2)/사진/이미지/txt_10.png" alt="장르/스타일"></span> <span
-					class="value">트로트 / 가요</span></li>
+					class="value">${songList.getGenre()}</span></li>
 				<li><span class="attr"><img
 						src="C:/Users/최유강/Desktop/팀4 (2)/사진/이미지/txt_11.png" alt="발매사"></span> <span
-					class="value">Dreamus</span></li>
+					class="value">${songList.getPublisher()}</span></li>
 				<li><span class="attr"><img
 						src="C:/Users/최유강/Desktop/팀4 (2)/사진/이미지/txt_13.png" alt="기획사"></span> <span
-					class="value">㈜티조컬처앤컨텐츠</span></li>
+					class="value">${songList.getAgency()}</span></li>
 				<li><span class="attr"><img
 						src="C:/Users/최유강/Desktop/팀4 (2)/사진/이미지/txt_12.png" alt="발매일"> </span> <span
-					class="value">2020.10.05</span></li>
+					class="value">${songList.getG_date()}</span></li>
 			</ul>
 		</div>
 	</div>

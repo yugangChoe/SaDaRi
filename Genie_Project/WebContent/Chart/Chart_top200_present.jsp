@@ -37,7 +37,10 @@
                 window.open("/Genie_Project/G_servlet?command=Login","로그인","width=470, height=430")
             }
             function mv(num){
-            	window.open("/Genie_Project/G_servlet?command=Song_MV&songid="+num,"플레이리스트","width=1200, height=630");
+            	window.open("/Genie_Project/G_servlet?command=Song_MV&songid="+num,"뮤직비디오","width=1200, height=630");
+            }
+            function img(num){
+            	window.open("/Genie_Project/G_servlet?command=Song_info&songid="+num, "앨범정보", "width=470, height=430")
             }
 
                 google.charts.load('current', {'packages':['corechart']});
@@ -303,22 +306,24 @@
 								</tr>
 							</thead>
 							<tbody>
-							
+
 								<tr class="list" songid="279">
 									<!-- tr list -->
 									<td class="check"><input type="checkbox"
-										class="select-check" title="다시 여기 바닷가" ></td>
+										class="select-check" title="다시 여기 바닷가"></td>
 									<td class="number">1</td>
-									<td><a href="#" class="imge"> <span class="mask"></span>
-											<img src="C:/팀4/사진/지니차트/TOP 200/월간/1.jpg" alt="다시 여기 바닷가">
+									<td><a href="#" class="imge"
+										onclick="img(${songList[1].getSongid()})"> <span
+											class="mask"></span> <img
+											src="C:/팀4/사진/지니차트/TOP 200/월간/1.jpg" alt="다시 여기 바닷가">
 									</a></td>
-									<td class="info"><a href="#" class="sg songTitle">${songList[1].getTitle()}</a> 
-										<a href="#" class="sg songArtist">${songList[1].getArtist()}</a> 
-										${songList[1].getSongid()}
-										<!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+									<td class="info"><a href="#" class="sg songTitle">${songList[1].getTitle()}</a>
+										<a href="#" class="sg songArtist">${songList[1].getArtist()}</a>
+										${songList[1].getSongid()} ${songList[1].getG_like() } <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
 										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
 									<td class="btns"><a href="#" title="재생"
-										class="btn-img btn-listen" onclick="play_one(${songList[1].getSongid()})">듣기</a></td>
+										class="btn-img btn-listen"
+										onclick="play_one(${songList[1].getSongid()})">듣기</a></td>
 									<td class="btns"><a href="#" title="추가"
 										class="btn-img btn-add" onclick="play_list(1)">추가</a></td>
 									<td class="btns"><a href="#" title="담기"
@@ -326,14 +331,15 @@
 									<td class="btns"><a href="#" title="다운"
 										class="btn-img btn-down" onclick="login()">다운</a></td>
 									<td class="btns"><a href="#" title="뮤비"
-										class="btn-img btn-movie" onclick="mv(${songList[1].getSongid()})">뮤비</a></td>
+										class="btn-img btn-movie"
+										onclick="mv(${songList[1].getSongid()})">뮤비</a></td>
 								</tr>
 								<!-- tr list -->
-								
+
 								<tr class="list" songid="279">
 									<!-- tr list -->
 									<td class="check"><input type="checkbox"
-										class="select-check" title="다시 여기 바닷가" ></td>
+										class="select-check" title="다시 여기 바닷가"></td>
 									<td class="number">1</td>
 									<td><a href="#" class="imge"> <span class="mask"></span>
 											<img src="C:/팀4/사진/지니차트/TOP 200/월간/1.jpg" alt="다시 여기 바닷가">

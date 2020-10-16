@@ -22,20 +22,110 @@
             }
         }
         function play_one(num){
-            window.open("C:/팀4/play.html","플레이리스트","width=1200, height=630");
+            window.open("/Genie_Project/G_servlet?command=Song_play","플레이리스트","width=1200, height=630");
             var num=num;
         }
         function play_list(num){
-            window.open("C:/팀4/play.html","플레이리스트","width=1200, height=630");
+            window.open("/Genie_Project/G_servlet?command=Song_play","플레이리스트","width=1200, height=630");
         }
         function login(){
-            window.open("C:/팀4/login.html","로그인","width=470, height=430")
+            window.open("/Genie_Project/G_servlet?command=Login","로그인","width=470, height=430")
         }
 	</script>
 </head>
 <body>
 	<div class="wrap-main">
+<<<<<<< HEAD
 	<%@ include file="Header.jsp"%>
+=======
+		<div class="wrap-head" style="z-index: 90;">
+			<div class="head-list">
+				<h1 class="logo">
+					<a href="#">홈으로가기</a>
+				</h1>
+				<div class="gnb">
+					<!-- gnb -->
+					<ul class="menu-list clearfix" id="main_menu">
+						<li>
+							<!-- 지니차트 --> <a href="/Genie_Project/G_servlet?command=Chart_top200_present" class="gnb-menu">지니차트</a>
+							<div class="sub_menu" style="width: 48%;">
+								<ul id="sub_menu_chart">
+									<li><a href="/Genie_Project/G_servlet?command=Chart_top200_present">TOP200</a></li>
+									<li><a href="/Genie_Project/G_servlet?command=Chart_genre_kpop_day">장르별 차트</a></li>
+									<li><a href="/Genie_Project/G_servlet?command=Chart_MV_day">뮤직비디오 차트</a></li>
+								</ul>
+							</div>
+						</li>
+						<!-- 지니차트끝 -->
+
+						<li>
+							<!-- 최신음악 --> <a href="/Genie_Project/G_servlet?command=Newest_song_hot" class="gnb-menu">최신음악</a>
+							<div class="sub_menu" style="width: 38%;">
+								<ul id="sub_menu_newest">
+									<li><a href="/Genie_Project/G_servlet?command=Newest_song_hot">최신 곡</a></li>
+									<li><a href="/Genie_Project/G_servlet?command=Newest_album_hot">최신 앨범</a></li>
+								</ul>
+							</div>
+						</li>
+						<!-- 최신음악 끝-->
+
+						<li>
+							<!-- 장르음악 --> <a href="/Genie_Project/G_servlet?command=Genre_kpop_all" class="gnb-menu">장르음악</a>
+							<div class="sub_menu" style="width: 24%;">
+								<ul id="sub_menu_genre">
+									<li><a href="/Genie_Project/G_servlet?command=Genre_kpop_all">가요</a></li>
+									<li><a href="/Genie_Project/G_servlet?command=Genre_pop_all">POP</a></li>
+									<li><a href="/Genie_Project/G_servlet?command=Genre_OST_all">OST</a></li>
+									<li><a href="/Genie_Project/G_servlet?command=Genre_trot">트롯</a></li>
+								</ul>
+							</div>
+						</li>
+						<!-- 장르음악 끝-->
+						<div class="gnb_my">
+							<button type="button" onclick="login()" class="gnb_btn">로그인/회원가입</button>
+							<div id="login_list">
+								<ul class="list_login">
+									<li>
+										<div>
+											<input placeholder="아이디" size="25">
+										</div>
+									</li>
+									<li>
+										<div>
+											<input placeholder="비밀번호" size="25">
+										</div>
+									</li>
+								</ul>
+								<!-- list_login -->
+								<div class="login-form">
+									<a href="#" class="btn-login" title="새창 열림"
+										onclick="loginPopup(); return false;"> <span class="txt">
+											<span class="hide">genie</span>로그인
+									</span>
+									</a>
+									<div class="btns clearfix">
+										<a href="//www.genie.co.kr/member/find/findId">아이디/비밀번호 찾기</a>
+										<a href="//www.genie.co.kr/member/signUp" class="text-bold">회원가입</a>
+									</div>
+									<!-- btns clearfix -->
+								</div>
+								<!-- login-form -->
+								<button type="button" onclick="login()" class="gnb_btn">닫기</button>
+							</div>
+							<!-- login_list -->
+						</div>
+						<!--gnb_my -->
+					</ul>
+					<!-- menu-list -->
+				</div>
+				<!-- gnb -->
+			</div>
+			<!-- head-list -->
+		</div>
+		<!-- wrap-header -->
+
+		<!-- 헤더 끝 -->
+>>>>>>> branch 'main' of https://github.com/yugangChoe/SaDaRi.git
 		<!-- 바디시작 -->
 		<div id="wrap-body" class="aside">
 			<div id="contents">
@@ -47,23 +137,23 @@
 				<!-- title -->
 				<div class="title-1">
 					<ul>
-						<li><a href="Chart_top200_present.jsp"> <img
+						<li><a href="/Genie_Project/G_servlet?command=Chart_top200_present"> <img
 								src="C:/팀4/사진/이미지/top_200.png" alt="탑200">
 						</a></li>
-						<li><a href="Chart_genre_kpop_day.jsp"> <img
+						<li><a href="/Genie_Project/G_servlet?command=Chart_genre_kpop_day"> <img
 								src="C:/팀4/사진/이미지/genre_chart.png" alt="장르별차트">
 						</a></li>
-						<li><a href="Chart_MV_day.jsp"> <img
+						<li><a href="/Genie_Project/G_servlet?command=Chart_MV_day"> <img
 								src="C:/팀4/사진/이미지/mv_chart.png" alt="뮤직비디오차트"></a></li>
 					</ul>
 				</div>
 				<div class="title-line">
 					<h3 style="font: 0/0 a">장르 종류</h3>
 					<ul>
-						<li class="hot"><a href="Chart_genre_kpop_day.jsp">가요</a></li>
-						<li><a href="Chart_genre_pop_day.jsp">POP</a></li>
-						<li><a href="Chart_genre_OST_day.jsp">OST</a></li>
-						<li><a href="Chart_genre_trot.day.jsp">트롯</a></li>
+						<li class="hot"><a href="/Genie_Project/G_servlet?command=Chart_genre_kpop_day">가요</a></li>
+						<li><a href="/Genie_Project/G_servlet?command=Chart_genre_pop_day">POP</a></li>
+						<li><a href="/Genie_Project/G_servlet?command=Chart_genre_OST_day">OST</a></li>
+						<li><a href="/Genie_Project/G_servlet?command=Chart_genre_trot_day">트롯</a></li>
 					</ul>
 				</div>
 				<!-- title-line -->
@@ -77,8 +167,8 @@
 					</div>
 					<!-- date -->
 					<ul class="select-term">
-						<li><a href="Chart_genre_kpop_day.jsp" class="radius ">일간</a></li>
-						<li><a href="Chart_genre_kpop_week.jsp" class="radius ">주간</a></li>
+						<li><a href="/Genie_Project/G_servlet?command=Chart_genre_kpop_day" class="radius ">일간</a></li>
+						<li><a href="/Genie_Project/G_servlet?command=Chart_genre_kpop_week" class="radius ">주간</a></li>
 					</ul>
 				</div>
 				<!--chart-date -->

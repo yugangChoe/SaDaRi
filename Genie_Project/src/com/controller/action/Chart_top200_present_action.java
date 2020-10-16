@@ -15,7 +15,7 @@ public class Chart_top200_present_action implements Action {
 
 	@Override
 	public void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String url = "/Chart/Chart_top200_present.jsp";
+		String url = "Chart/Chart_top200_present.jsp";
 		G_DAO gD = G_DAO.getInstance();
 		Vector<SongVO> songList = gD.selectAllSong();
 		request.setAttribute("songList", songList);

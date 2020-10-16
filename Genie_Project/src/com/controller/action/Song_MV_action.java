@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.dao.G_DAO;
 import com.dto.SongVO;
 
-public class Song_MV_Action implements Action {
+public class Song_MV_action implements Action {
 
 	@Override
 	public void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -21,7 +21,7 @@ public class Song_MV_Action implements Action {
 		G_DAO gD = G_DAO.getInstance();
 		int songId=Integer.parseInt(request.getParameter("songid"));
 		SongVO songList = gD.selectOneSong(songId);
-		request.setAttribute("songList", songList);
+		request.setAttribute("url", songList.getG_url());
 		RequestDispatcher dispatcher = request.getRequestDispatcher(url);
 		dispatcher.forward(request, response);
 

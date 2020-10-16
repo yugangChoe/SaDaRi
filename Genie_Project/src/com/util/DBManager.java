@@ -1,6 +1,7 @@
 package com.util;
 
 import java.sql.Connection;
+import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
@@ -11,14 +12,24 @@ import javax.sql.DataSource;
 
 public class DBManager {
 	public static Connection getConnection() {
+		//DB접속
+//		String user="c##KBO";
+//		String password="KBO";
+//		String url="jdbc:oracle:thin:@localhost:1521/orcl";
+		
 		Connection con = null;
 		try {
 			Context initContext = new InitialContext();
 			Context envContext = (Context) initContext.lookup("java:/comp/env");
 			// jdbc/myoracle이란 이름을 객체를 찾아서 DataSource가 받는다.
-			DataSource ds = (DataSource) envContext.lookup("jdbc/myoracle");
+			DataSource ds = (DataSource) envContext.lookup("jdbc/pool");
 			// ds가 생성되었으므로 Connection을 구합니다.
 			con = ds.getConnection();
+			
+//			Class.forName("oracle.jdbc.driver.OracleDriver");
+//			con=DriverManager.getConnection(url, user, password);
+			
+			System.out.println("DB 연결 성공");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

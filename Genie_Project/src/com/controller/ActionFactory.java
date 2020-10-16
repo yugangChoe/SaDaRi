@@ -32,10 +32,14 @@ import com.controller.action.Genre_pop_hiphop_action;
 import com.controller.action.Genre_pop_pop_action;
 import com.controller.action.Genre_pop_rock_action;
 import com.controller.action.Genre_trot_action;
+import com.controller.action.Login_action;
 import com.controller.action.Newest_album_all_action;
 import com.controller.action.Newest_album_hot_action;
 import com.controller.action.Newest_song_all_action;
 import com.controller.action.Newest_song_hot_action;
+import com.controller.action.Song_MV_action;
+import com.controller.action.Song_info_action;
+import com.controller.action.Song_play_action;
 
 public class ActionFactory {
 	private static ActionFactory instance = new ActionFactory();
@@ -122,6 +126,14 @@ public class ActionFactory {
 			action = new Newest_song_all_action();
 		} else if (command.equals("Newest_song_hot")) {
 			action = new Newest_song_hot_action();
+		} else if (command.equals("Login")) {
+			action = new Login_action();
+		} else if (command.equals("Song_info")) {
+			action = new Song_info_action();
+		} else if (command.equals("Song_MV")) {
+			action = new Song_MV_action();
+		} else if (command.equals("Song_play")) {
+			action = new Song_play_action();
 		}
 		return action;
 

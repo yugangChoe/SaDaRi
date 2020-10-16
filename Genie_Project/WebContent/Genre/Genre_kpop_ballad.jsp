@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link href="../css/Genie.css" rel="stylesheet" type="text/css">
+<link href="/Genie_Project/css/Genie.css" rel="stylesheet" type="text/css">
 <title>Genre_kpop_ballad</title>
         <script>
             var login_st=0;
@@ -23,14 +23,14 @@
             }
 
             function play_one(num){
-                window.open("C:/팀4/play.html","플레이리스트","width=1200, height=630");
+                window.open("/Genie_Project/G_servlet?command=Song_play","플레이리스트","width=1200, height=630");
                 var num=num;
             }
             function play_list(num){
-                window.open("C:/팀4/play.html","플레이리스트","width=1200, height=630");
+                window.open("/Genie_Project/G_servlet?command=Song_play","플레이리스트","width=1200, height=630");
             }
             function login(){
-                window.open("C:/팀4/login.html","로그인","width=470, height=430")
+                window.open("/Genie_Project/G_servlet?command=Login","로그인","width=470, height=430")
             }
         </script>
 </head>
@@ -159,22 +159,22 @@
         <div class="title-1">
             <ul>
                 <li>
-                    <a href="Genre_kpop_all.jsp">
+                    <a href="/Genie_Project/G_servlet?command=Genre_kpop_all">
                         <img src="C:/팀4/사진/이미지/genre_1_2020.png" alt="가요">
                     </a>
                 </li>
                 <li>
-                    <a href="Genre_pop_all.jsp">
+                    <a href="/Genie_Project/G_servlet?command=Genre_pop_all">
                         <img src="C:/팀4/사진/이미지/genre_2_2020.png" alt="POP">
                     </a>
                 </li>
                 <li>
-                    <a href="Genre_OST_all.jsp">
+                    <a href="/Genie_Project/G_servlet?command=Genre_OST_all">
                         <img src="C:/팀4/사진/이미지/genre_3_2020.png" alt="OST">
                     </a>
                 </li>
                 <li>
-                    <a href="Genre_trot.jsp">
+                    <a href="/Genie_Project/G_servlet?command=Genre_trot">
                         <img src="C:/팀4/사진/이미지/genre_11.png" alt="트롯">
                     </a>
                 </li>
@@ -184,22 +184,22 @@
             <h3 style="font: 0/0 a">앨범 종류</h3>
             <ul>
                 <li class="hot">
-                    <a href="Genre_kpop_all.jsp">전체</a>
+                    <a href="/Genie_Project/G_servlet?command=Genre_kpop_all">전체</a>
                 </li>
                 <li>
-                    <a href="Genre_kpop_ballad.jsp">발라드</a>
+                    <a href="/Genie_Project/G_servlet?command=Genre_kpop_ballad">발라드</a>
                 </li>
                 <li>
-                    <a href="Genre_kpop_dance.jsp">댄스</a>
+                    <a href="/Genie_Project/G_servlet?command=Genre_kpop_dance">댄스</a>
                 </li>
                 <li>
-                    <a href="Genre_kpop_RNB.jsp">R&B/소울</a>
+                    <a href="/Genie_Project/G_servlet?command=Genre_kpop_RNB">R&B/소울</a>
                 </li>
                 <li>
-                    <a href="Genre_kpop_rock.jsp">락</a>
+                    <a href="/Genie_Project/G_servlet?command=Genre_kpop_rock">락</a>
                 </li>
                 <li>
-                    <a href="Genre_kpop_hiphop.jsp">랩/힙합</a>
+                    <a href="/Genie_Project/G_servlet?command=Genre_kpop_hiphop">랩/힙합</a>
                 </li>
             </ul>
         </div> <!-- title-line -->

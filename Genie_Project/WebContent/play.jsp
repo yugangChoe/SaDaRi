@@ -202,7 +202,7 @@ height: 100px;
         document.getElementById("heart").innerHTML='♥';
         }
         function login(){
-                window.open("C:/팀4/login.html","로그인","width=470, height=430")
+                window.open("login.jsp","로그인","width=470, height=430")
             }
     </script>
 </head>

@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link href="../css/Genie.css" rel="stylesheet" type="text/css">
+<link href="/Genie_Project/css/Genie.css" rel="stylesheet" type="text/css">
 <title>Chart_genre_OST_day</title>
         <script>
             var login_st=0;
@@ -22,14 +22,14 @@
                     }
                 }
                 function play_one(num){
-                window.open("C:/팀4/play.html","플레이리스트","width=1200, height=630");
+                window.open("/Genie_Project/G_servlet?command=Song_play","플레이리스트","width=1200, height=630");
                 var num=num;
             }
             function play_list(num){
-                window.open("C:/팀4/play.html","플레이리스트","width=1200, height=630");
+                window.open("/Genie_Project/G_servlet?command=Song_play","플레이리스트","width=1200, height=630");
             }
             function login(){
-                window.open("C:/팀4/login.html","로그인","width=470, height=430")
+                window.open("/Genie_Project/G_servlet?command=Login","로그인","width=470, height=430")
             }
         </script>
 </head>
@@ -158,17 +158,17 @@
         <div class="title-1">
             <ul>
 	            <li>
-	                <a href="Chart_top200_present.jsp">
+	                <a href="/Genie_Project/G_servlet?command=Chart_top200_present">
 	                    <img src="C:/팀4/사진/이미지/top_200.png" alt="탑200">
 	                </a>
 	            </li>
 	            <li>
-	                <a href="Chart_genre_kpop_day.jsp">
+	                <a href="/Genie_Project/G_servlet?command=Chart_genre_kpop_day">
 	                    <img src="C:/팀4/사진/이미지/genre_chart.png" alt="장르별차트">
 	                </a>
 	            </li>
 	            <li>
-	                <a href="Chart_MV_day.jsp">
+	                <a href="/Genie_Project/G_servlet?command=Chart_MV_day">
 	                    <img src="C:/팀4/사진/이미지/mv_chart.png" alt="뮤직비디오차트"></a>
 	            </li>
             </ul>
@@ -177,16 +177,16 @@
             <h3 style="font: 0/0 a">장르 종류</h3>
             <ul>
                 <li class="hot">
-                    <a href="Chart_genre_kpop_day.jsp">가요</a>
+                    <a href="/Genie_Project/G_servlet?command=Chart_genre_kpop_day">가요</a>
                 </li>
                 <li>
-                    <a href="Chart_genre_pop_day.jsp">POP</a>
+                    <a href="/Genie_Project/G_servlet?command=Chart_genre_pop_day">POP</a>
                 </li>
                 <li>
-                    <a href="Chart_genre_OST_day.jsp">OST</a>
+                    <a href="/Genie_Project/G_servlet?command=Chart_genre_OST_day">OST</a>
                 </li>
                 <li>
-                    <a href="Chart_genre_trot.day.jsp">트롯</a>
+                    <a href="/Genie_Project/G_servlet?command=Chart_genre_trot_day">트롯</a>
                 </li>
             </ul>
         </div><!-- title-line -->
@@ -200,8 +200,8 @@
                 </a>
             </div><!-- date -->
             <ul class="select-term">
-                <li><a href="Chart_genre_OST_day.jsp" class="radius ">일간</a></li>
-                <li><a href="Chart_genre_OST_week.jsp" class="radius ">주간</a></li>
+                <li><a href="/Genie_Project/G_servlet?command=Chart_genre_OST_day" class="radius ">일간</a></li>
+                <li><a href="/Genie_Project/G_servlet?command=Chart_genre_OST_week" class="radius ">주간</a></li>
             </ul>
         </div><!--chart-date -->
         <div class="song-list">

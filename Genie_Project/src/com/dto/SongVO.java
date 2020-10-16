@@ -12,7 +12,7 @@ public class SongVO {
 	private String agency;
 	private String g_date;
 	private int g_like;
-	private String g_url1m1;
+	private String g_url1m;
 	private String g_url;
 	private int copyright;
 	
@@ -76,11 +76,11 @@ public class SongVO {
 	public void setG_like(int g_like) {
 		this.g_like = g_like;
 	}
-	public String getG_url1m1() {
-		return g_url1m1;
+	public String getG_url1m() {
+		return g_url1m;
 	}
-	public void setG_url1m1(String g_url1m1) {
-		this.g_url1m1 = g_url1m1;
+	public void setG_url1m(String g_url1m) {
+		this.g_url1m = g_url1m;
 	}
 	public String getG_url() {
 		return g_url;

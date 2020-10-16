@@ -24,8 +24,8 @@ public class G_DAO {
 
 	// 전곡정보 불러오기
 	public Vector<SongVO> selectAllSong() {
-		String sql = "select * from genie order by sonid asc";
-		Vector<SongVO> vec = new Vector<SongVO>();
+		String sql = "select * from genie order by songid asc";
+		Vector<SongVO> vec = new Vector<SongVO>(700);
 		Connection con = null;
 		Statement stmt = null;
 		ResultSet rs = null;
@@ -45,10 +45,10 @@ public class G_DAO {
 				sVo.setAgency(rs.getString("agency"));
 				sVo.setG_date(rs.getString("g_date"));
 				sVo.setG_like(rs.getInt("g_like"));
-				sVo.setG_url1m1(rs.getString("g_url1m1"));
+				sVo.setG_url1m(rs.getString("g_url1m"));
 				sVo.setG_url(rs.getString("g_url"));
 				sVo.setCopyright(rs.getInt("copyright"));
-				vec.add(sVo.getSongid(), sVo);
+				vec.add(sVo);
 			}
 
 		} catch (Exception e) {
@@ -84,7 +84,7 @@ public class G_DAO {
 				sVo.setAgency(rs.getString("agency"));
 				sVo.setG_date(rs.getString("g_date"));
 				sVo.setG_like(rs.getInt("g_like"));
-				sVo.setG_url1m1(rs.getString("g_url1m1"));
+				sVo.setG_url1m(rs.getString("g_url1m"));
 				sVo.setG_url(rs.getString("g_url"));
 				sVo.setCopyright(rs.getInt("copyright"));
 			}
@@ -126,7 +126,7 @@ public class G_DAO {
 					sVo.setAgency(rs.getString("agency"));
 					sVo.setG_date(rs.getString("g_date"));
 					sVo.setG_like(rs.getInt("g_like"));
-					sVo.setG_url1m1(rs.getString("g_url1m1"));
+					sVo.setG_url1m(rs.getString("g_url1m"));
 					sVo.setG_url(rs.getString("g_url"));
 					sVo.setCopyright(rs.getInt("copyright"));
 					list.add(sVo);

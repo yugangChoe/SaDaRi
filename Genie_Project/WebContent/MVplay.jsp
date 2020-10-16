@@ -1,3 +1,4 @@
+<%@page import="com.dto.SongVO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -198,7 +199,7 @@ div {
 	}
 	function play() {
 		document.getElementById("play").innerHTML = '▷'
-		aa.innerHTML = "<iframe width='220px' height='220px' src='https://www.youtube.com/embed/zJCdkOpU90g?controls=0&amp;autoplay=1' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen hidden></iframe>";
+		aa.innerHTML = "<iframe width='220px' height='220px' src='https://www.youtube.com/embed/zJCdkOpU90g?controls=0&amp;autoplay=1' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen/>";
 	}
 	function color() {
 		document.getElementById("heart").innerHTML = '♥';
@@ -209,6 +210,10 @@ div {
 </script>
 </head>
 <body>
+<%
+	
+	
+%>
 	<div id="div1">
 		<header>
 			<div>
@@ -230,7 +235,8 @@ div {
 			<fieldset
 				style="width: 560px; text-align: center; margin-left: 120px;">
 				<label id="aa"><iframe width='560px' height='315px'
-						src='https://www.youtube.com/embed/zJCdkOpU90g?controls=0&amp;autoplay=1'
+						<!-- src='https://www.youtube.com/embed/zJCdkOpU90g?controls=0&amp;autoplay=0' -->
+						src=${url}
 						frameborder='0'
 						allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
 						allowfullscreen></iframe></label>
@@ -246,7 +252,6 @@ div {
 								구매</small></label>
 				</fieldset>
 			</footer>
-			
 	</div>
 </body>
 </html>

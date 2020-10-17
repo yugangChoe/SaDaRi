@@ -35,7 +35,7 @@
 </head>
 <body>
 <div class="wrap-main">
-         <jsp:include page="Header.jsp"></jsp:include>
+         <jsp:include page="/Header.jsp"></jsp:include>
     <!-- 헤더 끝 -->
     <!-- 바디시작 -->
     <div id="wrap-body" class="aside">
@@ -1070,6 +1070,6 @@
     <!-- wrap-body -->
     </div>
     <!-- wrap-main -->
-    <jsp:include page="Footer.jsp"></jsp:include>
+    <jsp:include page="/Footer.jsp"></jsp:include>
 </body>
 </html>

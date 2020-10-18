@@ -32,6 +32,9 @@ import com.controller.action.Genre_pop_hiphop_action;
 import com.controller.action.Genre_pop_pop_action;
 import com.controller.action.Genre_pop_rock_action;
 import com.controller.action.Genre_trot_action;
+import com.controller.action.JoinForm_action;
+import com.controller.action.Join_action;
+import com.controller.action.LoginForm_action;
 import com.controller.action.Login_action;
 import com.controller.action.Newest_album_all_action;
 import com.controller.action.Newest_album_hot_action;
@@ -40,6 +43,7 @@ import com.controller.action.Newest_song_hot_action;
 import com.controller.action.Song_MV_action;
 import com.controller.action.Song_info_action;
 import com.controller.action.Song_play_action;
+import com.controller.action.idCheck_action;
 
 public class ActionFactory {
 	private static ActionFactory instance = new ActionFactory();
@@ -126,8 +130,16 @@ public class ActionFactory {
 			action = new Newest_song_all_action();
 		} else if (command.equals("Newest_song_hot")) {
 			action = new Newest_song_hot_action();
-		} else if (command.equals("Login")) {
+		} else if (command.equals("Login")) { //로그인 창 띄우기
 			action = new Login_action();
+		} else if (command.equals("LoginForm")) { //DB 연동 로그인 확인
+			action = new LoginForm_action();
+		} else if (command.equals("Join")) { //회원가입 창 띄우기
+			action = new Join_action();
+		} else if (command.equals("JoinForm")) { //회원가입 DB 전송
+			action = new JoinForm_action();
+		} else if (command.equals("idCheck")) { //아이디 중복 확인
+			action = new idCheck_action();
 		} else if (command.equals("Song_info")) {
 			action = new Song_info_action();
 		} else if (command.equals("Song_MV")) {

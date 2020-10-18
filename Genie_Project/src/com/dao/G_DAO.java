@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Vector;
 
+import com.dto.JoinVO;
 import com.dto.SongVO;
 import com.util.DBManager;
 
@@ -204,8 +205,9 @@ public class G_DAO {
 	}
 
 	// 유저 정보 확인 - 작성중
-	public void checkId(String id) {
-		String sql = "select * from 테이블명 where id=?";
+	public JoinVO checkId(String id) {
+		String sql = "select * from genie_member where id=?";
+		JoinVO jVo=new JoinVO();
 		Connection con = null;
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;
@@ -215,27 +217,35 @@ public class G_DAO {
 			pstmt.setString(1, id);
 			rs = pstmt.executeQuery();
 			if (rs.next()) {
-				// 유저정보bean 생성 후 데이터 리턴 하여 삽입
+				jVo.setName(rs.getString("name"));
+				jVo.setBirth(rs.getInt("birth"));
+				jVo.setId(rs.getString("id"));
+				jVo.setPwd(rs.getNString("pwd"));
+				jVo.setEmail(rs.getString("email"));
+				jVo.setPhone(rs.getInt("phone"));
 			}
-
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
 			DBManager.close(con, pstmt, rs);
 		}
+		return jVo;
 	}
 
-	// 회원 가입 - 작성중
-	public void insertMember() {
-		String sql = "insert into member? values(?,?,?)";
+	// 회원 가입 
+	public void insertMember(JoinVO bean) {
+		String sql = "insert into genie_member values(?,?,?,?,?,?)";
 		Connection con = null;
 		PreparedStatement pstmt = null;
 		try {
 			con = DBManager.getConnection();
 			pstmt = con.prepareStatement(sql);
-			// pstmt.setString(1, id);
-			// pstmt.setString(2, pwd);
-			// 회원가입에 유저정보는 뭐뭐 넣을것인지 확인
+			 pstmt.setString(1, bean.getName());
+			 pstmt.setInt(2, bean.getBirth());
+			 pstmt.setString(3, bean.getId());
+			 pstmt.setString(4, bean.getPwd());
+			 pstmt.setString(5, bean.getEmail());
+			 pstmt.setInt(6, bean.getPhone());
 			pstmt.executeUpdate();
 		} catch (Exception e) {
 			e.printStackTrace();

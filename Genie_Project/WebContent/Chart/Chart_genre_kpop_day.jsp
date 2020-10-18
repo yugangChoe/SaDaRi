@@ -9,7 +9,7 @@
 <script>
 		var login_st=0;
         function login(){
-        	if(login_st==0){v
+        	if(login_st==0){
             	var login_list=document.getElementById("login_list");
                 login_list.style.opacity="1";
                 login_list.style.visibility="visible";

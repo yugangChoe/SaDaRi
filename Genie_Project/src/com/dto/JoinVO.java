@@ -45,4 +45,5 @@ public class JoinVO {
 	public void setPhone(int phone) {
 		this.phone = phone;
 	}
+	
 }

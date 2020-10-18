@@ -7,23 +7,26 @@
 <meta charset="UTF-8">
 <title>Genie Web Player</title>
 <style>
+fieldset {
+	border: 0;
+}
+
 div {
 	display: inline;
 }
 
 #div1 {
 	float: left;
-	width: 50%;
+	width: 100%;
 	height: 100%;
 	background-color: gray;
 }
 
-#div2 {
-	float: right;
-	width: 50%;
-	height: 100%;
-}
-
+/* #div2 {
+   float: right;
+   width: 50%;
+   height: 100%;
+} */
 #title, #p1 {
 	text-align: center;
 }
@@ -145,79 +148,89 @@ div {
 
 #lab1:hover {
 	cursor: pointer;
+	background: white;
+	color: grey;
 }
 </style>
 <script>
-	function checkbox_play(num) {
-		var aa = document.getElementById("aa");
-		var songname = document.getElementById("songname");
-		var artist = document.getElementById("artist");
-		var songimg = document.getElementById("songimg");
-		switch (num) {
-		case 1:
-			songname.innerHTML = "Dynamite";
-			//songname.style.fontWeight='border';
-			artist.innerHTML = "방탄소년단";
-			document.getElementById("heart").innerHTML = '♡';
-			document.getElementById("play").innerHTML = '∥';
-			songimg.innerHTML = "<img src='C:/팀4/사진/지니차트/TOP 200/일간/1.jpg' width='220px' height='220px'>";
-			aa.innerHTML = "<iframe src='https://www.youtube.com/embed/zJCdkOpU90g?controls=0&amp;autoplay=1' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen hidden></iframe>";
-			break;
-		case 2: //저작권 문제 경고창
-			songname.innerHTML = "Bad Boy";
-			artist.innerHTML = "청하 & Christopher";
-			document.getElementById("heart").innerHTML = '♡';
-			document.getElementById("play").innerHTML = '▷';
-			songimg.innerHTML = "<img src='C:/팀4/사진/지니차트/TOP 200/일간/51.jpg' width='220px' height='220px'>";
-			alert("해당곡은 권리사의 요청으로 재생 할 수 없습니다.")
-			break;
-		case 3:
-			songname.innerHTML = "Tight";
-			artist.innerHTML = "10CM";
-			document.getElementById("heart").innerHTML = '♡';
-			document.getElementById("play").innerHTML = '∥';
-			songimg.innerHTML = "<img src='C:/팀4/사진/지니차트/TOP 200/일간/4.jpg' width='220px' height='220px'>";
-			aa.innerHTML = "<iframe src='https://www.youtube.com/embed/-xm5GpFwHw4?controls=0&amp;autoplay=1' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen hidden></iframe>";
-			break;
-		case 4:
-			songname.innerHTML = "오래된 노래";
-			artist.innerHTML = "Standing Egg";
-			document.getElementById("heart").innerHTML = '♡';
-			document.getElementById("play").innerHTML = '∥';
-			songimg.innerHTML = "<img src='C:/팀4/사진/지니차트/TOP 200/일간/2.jpg' width='220px' height='220px'>";
-			aa.innerHTML = "<iframe src='https://www.youtube.com/embed/bW3XExLBf7A?controls=0&amp;autoplay=1' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen hidden></iframe>";
-			break;
-		case 5:
-			songname.innerHTML = "내 마음이 움찔했던 순간";
-			artist.innerHTML = "규현";
-			document.getElementById("heart").innerHTML = '♡';
-			document.getElementById("play").innerHTML = '∥';
-			songimg.innerHTML = "<img src='C:/팀4/사진/지니차트/TOP 200/일간/5.jpg' width='220px' height='220px'>";
-			aa.innerHTML = "<iframe src='https://www.youtube.com/embed/3HKnF5ahGdg?controls=0&amp;autoplay=1' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen hidden></iframe>";
-			break;
-		}
-	}
-	function play() {
-		document.getElementById("play").innerHTML = '▷'
-		aa.innerHTML = "<iframe width='220px' height='220px' src='https://www.youtube.com/embed/zJCdkOpU90g?controls=0&amp;autoplay=1' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen/>";
-	}
-	function color() {
-		document.getElementById("heart").innerHTML = '♥';
-	}
-	function login() {
-		window.open("G_servlet?command=Login", "로그인", "width=470, height=430")
-	}
+   function checkbox_play(num) {
+      var aa = document.getElementById("aa");
+      var songname = document.getElementById("songname");
+      var artist = document.getElementById("artist");
+      var songimg = document.getElementById("songimg");
+      switch (num) {
+      case 1:
+         songname.innerHTML = "Dynamite";
+         //songname.style.fontWeight='border';
+         artist.innerHTML = "방탄소년단";
+         document.getElementById("heart").innerHTML = '♡';
+         document.getElementById("play").innerHTML = '∥';
+         songimg.innerHTML = "<img src='C:/팀4/사진/지니차트/TOP 200/일간/1.jpg' width='220px' height='220px'>";
+         aa.innerHTML = "<iframe src='https://www.youtube.com/embed/zJCdkOpU90g?controls=0&amp;autoplay=1' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen hidden></iframe>";
+         break;
+      case 2: //저작권 문제 경고창
+         songname.innerHTML = "Bad Boy";
+         artist.innerHTML = "청하 & Christopher";
+         document.getElementById("heart").innerHTML = '♡';
+         document.getElementById("play").innerHTML = '▷';
+         songimg.innerHTML = "<img src='C:/팀4/사진/지니차트/TOP 200/일간/51.jpg' width='220px' height='220px'>";
+         alert("해당곡은 권리사의 요청으로 재생 할 수 없습니다.")
+         break;
+      case 3:
+         songname.innerHTML = "Tight";
+         artist.innerHTML = "10CM";
+         document.getElementById("heart").innerHTML = '♡';
+         document.getElementById("play").innerHTML = '∥';
+         songimg.innerHTML = "<img src='C:/팀4/사진/지니차트/TOP 200/일간/4.jpg' width='220px' height='220px'>";
+         aa.innerHTML = "<iframe src='https://www.youtube.com/embed/-xm5GpFwHw4?controls=0&amp;autoplay=1' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen hidden></iframe>";
+         break;
+      case 4:
+         songname.innerHTML = "오래된 노래";
+         artist.innerHTML = "Standing Egg";
+         document.getElementById("heart").innerHTML = '♡';
+         document.getElementById("play").innerHTML = '∥';
+         songimg.innerHTML = "<img src='C:/팀4/사진/지니차트/TOP 200/일간/2.jpg' width='220px' height='220px'>";
+         aa.innerHTML = "<iframe src='https://www.youtube.com/embed/bW3XExLBf7A?controls=0&amp;autoplay=1' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen hidden></iframe>";
+         break;
+         case 5:
+         songname.innerHTML = "내 마음이 움찔했던 순간";
+         artist.innerHTML = "규현";
+         document.getElementById("heart").innerHTML = '♡';
+         document.getElementById("play").innerHTML = '∥';
+         songimg.innerHTML = "<img src='C:/팀4/사진/지니차트/TOP 200/일간/5.jpg' width='220px' height='220px'>";
+         aa.innerHTML = "<iframe src='https://www.youtube.com/embed/3HKnF5ahGdg?controls=0&amp;autoplay=1' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen hidden></iframe>";
+         break; 
+      }
+   }
+   function play() {
+      document.getElementById("play").innerHTML = '▷'
+      aa.innerHTML = "<iframe width='220px' height='220px' src='https://www.youtube.com/embed/zJCdkOpU90g?controls=0&amp;autoplay=1' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen/>";
+   }
+   function color() {
+     var h=document.getElementById("heart");
+     if(h.innerHTML=='♡'){
+        h.innerHTML= '♥';
+       
+     }
+     else if(h.innerHTML=='♥'){
+        h.innerHTML= '♡';
+        
+     }
+   }
+   function login() {
+      window.open("G_servlet?command=Login", "로그인", "width=470, height=430")
+   }
 </script>
 </head>
 <body>
-<%
-	
-	
+	<%
+   
+   
 %>
 	<div id="div1">
 		<header>
 			<div>
-				<img src="C:\팀4\사진\이미지/genie이미지.jpg" width="80px" height="40px">
+				<img src="C:/팀4/사진/이미지/genie이미지.jpg" width="80px" height="40px">
 			</div>
 		</header>
 		<body>
@@ -229,21 +242,20 @@ div {
 				</fieldset>
 				<fieldset
 					style="font-size: 20px; width: 560px; text-align: right; color: white; margin-left: 120px;">
-					<label onclick="color()" id="heart"><strong>♡</strong></label> <label><small>더보기</small></label>
+					<label onclick="color()" id="heart" value="♡">♡</label> <label><small>더보기</small></label>
 				</fieldset>
 			</div>
 			<fieldset
 				style="width: 560px; text-align: center; margin-left: 120px;">
 				<label id="aa"><iframe width='560px' height='315px'
-						<!-- src='https://www.youtube.com/embed/zJCdkOpU90g?controls=0&amp;autoplay=0' -->
-						src=${url}
-						frameborder='0'
-						allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-						allowfullscreen></iframe></label>
+						src=${url} frameborder='0' allow='accelerometer; autoplay;
+						clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+						allowfullscreen>
+					</iframe></label>
 			</fieldset>
 			<footer style="margin-top: 55px;">
 				<hr style="background-color: white;">
-				<fieldset>
+				<fieldset style="text-align: center;">
 					<label style="color: white; text-align: left; margin-left: 20px;"><small>로그인
 							후, 전곡 스트리밍을 이용해 보세요.</small></label> <label
 						style="color: white; text-align: right; margin-left: 40px;"

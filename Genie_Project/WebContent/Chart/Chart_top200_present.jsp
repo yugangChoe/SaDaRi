@@ -312,13 +312,13 @@
 										class="select-check" title="다시 여기 바닷가"></td>
 									<td class="number">1</td>
 									<td><a href="#" class="imge"
-										onclick="img(${songList[279].getSongid()})"> <span
+										onclick="img(${songList[1].getSongid()})"> <span
 											class="mask"></span> <img
 											src="C:/팀4/사진/지니차트/TOP 200/월간/1.jpg" alt="다시 여기 바닷가">
 									</a></td>
-									<td class="info"><a href="#" class="sg songTitle">${songList[279].getTitle()}</a>
-										<a href="#" class="sg songArtist">${songList[279].getArtist()}</a>
-										${songList[279].getSongid()} ${songList[279].getG_like() } <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+									<td class="info"><a href="#" class="sg songTitle">${songList[1].getTitle()}</a>
+										<a href="#" class="sg songArtist">${songList[1].getArtist()}</a>
+										${songList[1].getSongid()} ${songList[1].getG_like() } <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
 										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
 									<td class="btns"><a href="#" title="재생"
 										class="btn-img btn-listen"

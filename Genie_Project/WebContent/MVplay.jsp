@@ -237,8 +237,8 @@ div {
 			<div>
 				<fieldset
 					style="width: 560px; text-align: center; color: white; margin-left: 120px;">
-					<label id="songname" style="font-weight: bolder; font-size: 20px;"><strong>Dynamite</strong></label><br>
-					<label id="artist" style="font-size: 15px;"><small>방탄소년단</small></label>
+					<label id="songname" style="font-weight: bolder; font-size: 20px;"><strong>${songList.getTitle()}</strong></label><br>
+					<label id="artist" style="font-size: 15px;"><small>${songList.getArtist()}</small></label>
 				</fieldset>
 				<fieldset
 					style="font-size: 20px; width: 560px; text-align: right; color: white; margin-left: 120px;">

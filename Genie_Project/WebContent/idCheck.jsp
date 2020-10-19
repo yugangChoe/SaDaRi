@@ -14,10 +14,10 @@
 			var a=document.getElementById("a").value;
 			if(a==""){
 				alert("사용 가능한 ID 입니다.");
-				self.close()
+				self.close();
 			}else{
 				alert("이미 존재하는 ID 입니다.");
-				self.close()
+				self.close();
 			}
 		}
 	</script>

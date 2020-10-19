@@ -25,7 +25,7 @@ public class G_DAO {
 
 	// 전곡정보 불러오기
 	public Vector<SongVO> selectAllSong() {
-		String sql = "select * from genie order by songid asc";
+		String sql = "select * from genie";
 		Vector<SongVO> vec = new Vector<SongVO>(700);
 		Connection con = null;
 		Statement stmt = null;

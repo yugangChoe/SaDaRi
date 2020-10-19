@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Genei Login</title>
+<title>Genie Login</title>
 <style>
 /* body{background: lightpink;}
             h1{color: brown;}
@@ -17,8 +17,7 @@
 <script type="text/javascript" src="/Genie_Project/script/idCheck.js"></script>
 </head>
 <body style="width: 450px">
-	<form name="join" method="post" action="G_servlet"
-		onsubmit="return submitCheck(this)">
+	<form name="login" method="post" action="G_servlet" onsubmit="return loginCheck(this)">
 		<input type="hidden" name="command" value="LoginForm">
 		<fieldset style="border: 1px solid white;">
 			<legend style="color: #444;">

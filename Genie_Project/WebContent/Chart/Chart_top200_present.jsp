@@ -26,8 +26,8 @@
                         login_st=0;
                     }
                 }
-                function play_one(num){
-                window.open("/Genie_Project/G_servlet?command=Song_play","플레이리스트","width=1200, height=630");
+            function play_one(num){
+                window.open("/Genie_Project/G_servlet?command=Song_play&songid="+num,"플레이리스트","width=1200, height=630");
                 var num=num;
             }
             function play_list(num){
@@ -37,7 +37,7 @@
                 window.open("/Genie_Project/G_servlet?command=Login","로그인","width=470, height=430")
             }
             function mv(num){
-            	window.open("/Genie_Project/G_servlet?command=Song_MV&songid="+num,"뮤직비디오","width=1200, height=630");
+            	window.open("/Genie_Project/G_servlet?command=Song_MV&songid="+num,"뮤직비디오","width=700, height=550");
             }
             function img(num){
             	window.open("/Genie_Project/G_servlet?command=Song_info&songid="+num, "앨범정보", "width=470, height=430")
@@ -322,7 +322,7 @@
 										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
 									<td class="btns"><a href="#" title="재생"
 										class="btn-img btn-listen"
-										onclick="play_one(${songList[279].getSongid()})">듣기</a></td>
+										onclick="play_one(${songList[1].getSongid()})">듣기</a></td>
 									<td class="btns"><a href="#" title="추가"
 										class="btn-img btn-add" onclick="play_list(1)">추가</a></td>
 									<td class="btns"><a href="#" title="담기"
@@ -331,7 +331,7 @@
 										class="btn-img btn-down" onclick="login()">다운</a></td>
 									<td class="btns"><a href="#" title="뮤비"
 										class="btn-img btn-movie"
-										onclick="mv(${songList[279].getSongid()})">뮤비</a></td>
+										onclick="mv(${songList[1].getSongid()})">뮤비</a></td>
 								</tr>
 								<!-- tr list -->
 								<!-- tr list -->

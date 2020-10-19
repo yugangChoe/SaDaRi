@@ -21,13 +21,21 @@ public class Song_play_action implements Action {
 		//한곡 플레이시 및 여러곡 플레이시 확인 요
 		String url = "play.jsp";
 		G_DAO gD = G_DAO.getInstance();
-		String songId[]=request.getParameterValues("songid");
-		List<SongVO> songList =null; 
-		for(int i=0;i<request.getParameterValues("songid").length;i++) {
-			SongVO sVo=gD.selectOneSong(Integer.parseInt(songId[i]));
-			songList.add(sVo);
-		}
+		
+		int songId=Integer.parseInt(request.getParameter("songid"));
+		SongVO songList = gD.selectOneSong(songId);
 		request.setAttribute("songList", songList);
+		
+//		String songId[]=request.getParameterValues("songid");
+//		List<SongVO> songList =null; 
+//		for(int i=0;i<request.getParameterValues("songid").length;i++) {
+//			SongVO sVo=gD.selectOneSong(Integer.parseInt(songId[i]));
+//			songList.add(sVo);
+//		}
+//		for(int i=0;i<songList.size();i++) {
+//			System.out.println(songList.get(i));
+//		}
+//		request.setAttribute("songList", songList);
 		RequestDispatcher dispatcher = request.getRequestDispatcher(url);
 		dispatcher.forward(request, response);
 

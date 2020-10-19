@@ -27,8 +27,10 @@
                         login_st=0;
                     }
                 }
-                function play_one(num){
-                window.open("/Genie_Project/G_servlet?command=Song_play","플레이리스트","width=1200, height=630");
+                
+            }
+            function play_one(num){
+                window.open("/Genie_Project/G_servlet?command=Song_play&songid="+num,"플레이리스트","width=1200, height=630");
                 var num=num;
             }
             function play_list(num){
@@ -38,10 +40,10 @@
                 window.open("/Genie_Project/G_servlet?command=Login","로그인","width=470, height=430")
             }
             function mv(num){
-            	window.open("/Genie_Project/G_servlet?command=Song_MV&songid="+num,"뮤직비디오","width=1200, height=630");
+               window.open("/Genie_Project/G_servlet?command=Song_MV&songid="+num,"뮤직비디오","width=700, height=550");
             }
             function img(num){
-            	window.open("/Genie_Project/G_servlet?command=Song_info&songid="+num, "앨범정보", "width=470, height=430")
+               window.open("/Genie_Project/G_servlet?command=Song_info&songid="+num, "앨범정보", "width=470, height=430")
             }
 
                 google.charts.load('current', {'packages':['corechart']});
@@ -308,7 +310,6 @@
 							</thead>
 							<tbody>
 								<c:forEach var="i" begin="0" end="49">
-								${i }
 									<tr class="list" songid="${i }">
 										<!-- tr list -->
 										<td class="check"><input type="checkbox"

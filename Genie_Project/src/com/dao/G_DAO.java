@@ -23,36 +23,6 @@ public class G_DAO {
       return instance;
    }
 
-   // 전곡정보 불러오기
-   public Vector<SongVO> selectAllSong() {
-      String sql = "select * from genie";
-      Vector<SongVO> vec = new Vector<SongVO>(700);
-      Connection con = null;
-      Statement stmt = null;
-      ResultSet rs = null;
-      try {
-         con = DBManager.getConnection();
-         stmt = con.createStatement();
-         rs = stmt.executeQuery(sql);
-         while (rs.next()) {
-            SongVO sVo = new SongVO();
-            sVo.setSongid(rs.getInt("songid"));
-            sVo.setTitle(rs.getString("title"));
-            sVo.setArtist(rs.getString("artist"));
-            sVo.setAlbum(rs.getString("album"));
-            sVo.setGenre(rs.getString("genre"));
-            sVo.setG_style(rs.getString("g_style"));
-            sVo.setPublisher(rs.getString("publisher"));
-            sVo.setAgency(rs.getString("agency"));
-            sVo.setG_date(rs.getString("g_date"));
-            sVo.setG_like(rs.getInt("g_like"));
-            sVo.setG_url1m(rs.getString("g_url1m"));
-            sVo.setG_url(rs.getString("g_url"));
-            sVo.setCopyright(rs.getInt("copyright"));
-            vec.add(sVo);
-         }
-      }
-   }
 	// 전곡정보 불러오기
 	public Vector<SongVO> selectAllSong() {
 		String sql = "select * from genie";

@@ -339,7 +339,7 @@
 									</tr>
 								</c:forEach>
 							</tbody>
-						</table>
+						</table> 
 						<!-- song-list -->
 						<div class="toolbar">
 							<input type="checkbox" class="all-check" title="전체 선택"> <a

@@ -146,12 +146,14 @@ height: 100px;
 }
     </style>
     <script>
-        function checkbox_play(num){
+        function checkbox_play(url){
             var aa=document.getElementById("aa");
             var songname=document.getElementById("songname");
             var artist=document.getElementById("artist");
             var songimg=document.getElementById("songimg");
-            switch (num){
+            aa.innerHTML="<iframe src='url'?controls=0&amp;autoplay=1' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen hidden></iframe>";
+            
+            /*switch (num){
                 case 1:
                     songname.innerHTML="Dynamite";
                     //songname.style.fontWeight='border';
@@ -194,6 +196,7 @@ height: 100px;
                     aa.innerHTML="<iframe src='https://www.youtube.com/embed/3HKnF5ahGdg?controls=0&amp;autoplay=1' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen hidden></iframe>";
                     break;
             }
+            */
         }
         function play(){
             document.getElementById("play").innerHTML='▷'
@@ -303,6 +306,12 @@ height: 100px;
     <table>
     
        
+        <tr>
+            <td><input type="checkbox" name="list_check" value="1" style="margin-left: 20px;"></td>
+            <td colspan="3">${songList.getTitle()}<br><small style="color: #8d8d8d;">${songList.getArtist()}</small></td>
+            <td><input type="button" onclick="checkbox_play(${songList.getG_url()})" value="▶" style="font-size: 10px; margin: 0px;padding:4px;border: 1px solid #d9dde9;border-radius: 4px;background-color: white;"></td>
+            <td style="font-size: 12px;">더보기</td>
+        </tr>
         <tr>
             <td><input type="checkbox" name="list_check" value="1" style="margin-left: 20px;"></td>
             <td colspan="3">Dynamite<br><small style="color: #8d8d8d;">방탄소년단</small></td>

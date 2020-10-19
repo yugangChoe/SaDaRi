@@ -27,8 +27,11 @@
                         login_st=0;
                     }
                 }
+<<<<<<< HEAD
                 
             }
+=======
+>>>>>>> branch 'main' of https://github.com/yugangChoe/SaDaRi.git
             function play_one(num){
                 window.open("/Genie_Project/G_servlet?command=Song_play&songid="+num,"플레이리스트","width=1200, height=630");
                 var num=num;
@@ -40,7 +43,11 @@
                 window.open("/Genie_Project/G_servlet?command=Login","로그인","width=470, height=430")
             }
             function mv(num){
+<<<<<<< HEAD
                window.open("/Genie_Project/G_servlet?command=Song_MV&songid="+num,"뮤직비디오","width=700, height=550");
+=======
+            	window.open("/Genie_Project/G_servlet?command=Song_MV&songid="+num,"뮤직비디오","width=700, height=550");
+>>>>>>> branch 'main' of https://github.com/yugangChoe/SaDaRi.git
             }
             function img(num){
                window.open("/Genie_Project/G_servlet?command=Song_info&songid="+num, "앨범정보", "width=470, height=430")
@@ -308,6 +315,7 @@
 								</tr>
 							</thead>
 							<tbody>
+<<<<<<< HEAD
 								<c:forEach var="i" begin="0" end="49">
 									<tr class="list" songid="${i }">
 										<!-- tr list -->
@@ -338,6 +346,1192 @@
 											onclick="mv(${songList[i].getSongid()})">뮤비</a></td>
 									</tr>
 								</c:forEach>
+=======
+								<tr class="list" songid="279">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="다시 여기 바닷가"></td>
+									<td class="number">1</td>
+									<td><a href="#" class="imge"
+										onclick="img(${songList[1].getSongid()})"> <span
+											class="mask"></span> <img
+											src="C:/팀4/사진/지니차트/TOP 200/월간/1.jpg" alt="다시 여기 바닷가">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">${songList[1].getTitle()}</a>
+										<a href="#" class="sg songArtist">${songList[1].getArtist()}</a>
+										${songList[1].getSongid()} ${songList[1].getG_like() } <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen"
+										onclick="play_one(${songList[1].getSongid()})">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list(1)">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie"
+										onclick="mv(${songList[1].getSongid()})">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="눈누난나"></td>
+									<td class="number">2</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/2.jpg" alt="눈누난나">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">눈누난나</a>
+										<a href="#" class="sg songArtist">제시</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one(2)">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list(2)">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="그 여름을 틀어줘"></td>
+									<td class="number">3</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/3.jpg" alt="그 여름을 틀어줘">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">그
+											여름을 틀어줘</a> <a href="#" class="sg songArtist">싹쓰리</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one(3)">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list(3)">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="LINDA"></td>
+									<td class="number">4</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/4.jpg" alt="LINDA">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">LINDA(Feat.
+											윤미래)</a> <a href="#" class="sg songArtist">린다G</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one(4)">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list(4)">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="마리아"></td>
+									<td class="number">5</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/5.jpg" alt="마리아">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">마리아</a>
+										<a href="#" class="sg songArtist">화사</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one(5)">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list(5)">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="신난다(Feat. 마마무)"></td>
+									<td class="number">6</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/6.jpg"
+											alt="신난다(Feat. 마마무)">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">신난다(Feat.
+											마마무)</a> <a href="#" class="sg songArtist">비룡</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one(6)">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list(6)">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="How You Like That"></td>
+									<td class="number">7</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/7.jpg"
+											alt="How You Like That">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">How
+											You Like That</a> <a href="#" class="sg songArtist">BLACKPINK</a>
+										<!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 --> <!-- <a href="#">화살표옆 앨범타이틀</a> -->
+									</td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one(7)">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list(7)">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="홀로"></td>
+									<td class="number">8</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/8.jpg" alt="홀로">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">홀로</a> <a
+										href="#" class="sg songArtist">이하이</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one(8)">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list(8)">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="When We Disco"></td>
+									<td class="number">9</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/9.jpg" alt="When We Disco">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">When
+											We Disco</a> <a href="#" class="sg songArtist">박진영</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one(9)">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list(9)">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="아틀란티스 소녀"></td>
+									<td class="number">10</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/10.jpg" alt="아틀란티스 소녀">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">아틀란티스
+											소녀</a> <a href="#" class="sg songArtist">볼빨간사춘기</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one(10)">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list(10)">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="취기를 빌려"></td>
+									<td class="number">11</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/11.jpg" alt="취기를 빌려">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">취기를
+											빌려</a> <a href="#" class="sg songArtist">산들</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="덤디덤디"></td>
+									<td class="number">12</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/12.jpg" alt="덤디덤디">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">덤디덤디</a>
+										<a href="#" class="sg songArtist">(여자)아이들</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="Sumer Hate(Feat. 비)"></td>
+									<td class="number">13</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/13.jpg"
+											alt="Sumer Hate(Feat. 비)">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">Sumer
+											Hate(Feat. 비)</a> <a href="#" class="sg songArtist">지코(ZICO)</a>
+										<!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 --> <!-- <a href="#">화살표옆 앨범타이틀</a> -->
+									</td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="여름 안에서 (Feat. 황광희)"></td>
+									<td class="number">14</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/14.jpg"
+											alt="여름 안에서 (Feat. 황광희)">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">여름
+											안에서 (Feat. 황광희)</a> <a href="#" class="sg songArtist">싹쓰리</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="에잇(Prod. &Feat. SUGA of BTS)"></td>
+									<td class="number">15</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/15.jpg"
+											alt="에잇(Prod. &Feat. SUGA of BTS)">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">에잇(Prod.
+											&Feat. SUGA of BTS)</a> <a href="#" class="sg songArtist">아이유</a>
+										<!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 --> <!-- <a href="#">화살표옆 앨범타이틀</a> -->
+									</td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="Dolphin"></td>
+									<td class="number">16</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/16.jpg" alt="Dolphin">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">Dolphin</a>
+										<a href="#" class="sg songArtist">오마이걸</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="Downtown Baby"></td>
+									<td class="number">17</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/17.jpg"
+											alt="Downtown Baby">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">Downtown
+											Baby</a> <a href="#" class="sg songArtist">블루(BLOO)</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="아로하"></td>
+									<td class="number">18</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/18.jpg" alt="아로하">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">아로하</a>
+										<a href="#" class="sg songArtist">조정석</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="Dynamite"></td>
+									<td class="number">19</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/19.jpg" alt="Dynamite">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">Dynamite</a>
+										<a href="#" class="sg songArtist">방탄소년단</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="보라빛 밤"></td>
+									<td class="number">20</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/20.jpg" alt="보라빛 밤">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">보라빛
+											밤</a> <a href="#" class="sg songArtist">선미</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="살짝 설렜어"></td>
+									<td class="number">21</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/21.jpg" alt="살짝 설렜어">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">살짝
+											설렜어</a> <a href="#" class="sg songArtist">오마이걸</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="PLAY (Feat. 창모)"></td>
+									<td class="number">22</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/22.jpg"
+											alt="PLAY (Feat. 창모)">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">PLAY
+											(Feat. 창모)</a> <a href="#" class="sg songArtist">청하</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="Not shy"></td>
+									<td class="number">23</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/23.jpg" alt="Not shy">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">Not
+											shy</a> <a href="#" class="sg songArtist">ITZY(있지)</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="오래된 노래"></td>
+									<td class="number">24</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/24.jpg" alt="오래된 노래">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">오래된
+											노래</a> <a href="#" class="sg songArtist">Standing Egg</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="Dance Monkey"></td>
+									<td class="number">25</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/25.jpg" alt="Dance Monkey">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">Dance
+											Monkey</a> <a href="#" class="sg songArtist">Tones And I</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="사랑하게 될 줄 알았어"></td>
+									<td class="number">26</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/26.jpg" alt="사랑하게 될 줄 알았어">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">사랑하게
+											될 줄 알았어</a> <a href="#" class="sg songArtist">전미도</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="흔들리는 꽃들 속에서 네 샴푸향이 느껴진거야"></td>
+									<td class="number">27</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/27.jpg"
+											alt="흔들리는 꽃들 속에서 네 샴푸향이 느껴진거야">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">흔들리는
+											꽃들 속에서 네 샴푸향이 느껴진거야</a> <a href="#" class="sg songArtist">장범준</a>
+										<!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 --> <!-- <a href="#">화살표옆 앨범타이틀</a> -->
+									</td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="어떻게 지내 (Prod. by VAN.C)"></td>
+									<td class="number">28</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/28.jpg"
+											alt="어떻게 지내 (Prod. by VAN.C)">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">어떻게
+											지내 (Prod. by VAN.C)</a> <a href="#" class="sg songArtist">오반</a>
+										<!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 --> <!-- <a href="#">화살표옆 앨범타이틀</a> -->
+									</td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="Blueming"></td>
+									<td class="number">29</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/29.jpg" alt="Blueming">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">Blueming</a>
+										<a href="#" class="sg songArtist">아이유</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="METEOR"></td>
+									<td class="number">30</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/30.jpg" alt="METEOR">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">METEOR</a>
+										<a href="#" class="sg songArtist">창모</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="두리쥬와(Feat. S.B.N)"></td>
+									<td class="number">31</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/31.jpg"
+											alt="두리쥬와(Feat. S.B.N)">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">두리쥬와(Feat.
+											S.B.N)</a> <a href="#" class="sg songArtist">유두래곤</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="Don`t Start Now"></td>
+									<td class="number">32</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/32.jpg" alt="`t Start Now">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">Don`t
+											Start Now</a> <a href="#" class="sg songArtist">Dua Lipa</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="아직 너의 시간에 살아"></td>
+									<td class="number">33</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/33.jpg" alt="아직 너의 시간에 살아">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">아직
+											너의 시간에 살아</a> <a href="#" class="sg songArtist">이수현</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="Into the I-LAND"></td>
+									<td class="number">34</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/34.jpg"
+											alt="Into the I-LAND">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">Into
+											the I-LAND</a> <a href="#" class="sg songArtist">아이유</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="Memories"></td>
+									<td class="number">35</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/35.jpg" alt="Memories">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">Memories</a>
+										<a href="#" class="sg songArtist">Maroon</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="아무노래"></td>
+									<td class="number">36</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/36.jpg" alt="아무노래">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">아무노래</a>
+										<a href="#" class="sg songArtist">지코(ZICO)</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="내 마음이 움찔했던 순간"></td>
+									<td class="number">37</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/37.jpg"
+											alt="내 마음이 움찔했던 순간">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">내
+											마음이 움찔했던 순간</a> <a href="#" class="sg songArtist">규현(KYUHYUN)</a>
+										<!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 --> <!-- <a href="#">화살표옆 앨범타이틀</a> -->
+									</td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="2002"></td>
+									<td class="number">38</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/38.jpg" alt="2002">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">2002</a>
+										<a href="#" class="sg songArtist">Anne-Marie</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="늦은 밤 너의 집 앞 골목길에서"></td>
+									<td class="number">39</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/39.jpg"
+											alt="늦은 밤 너의 집 앞 골목길에서">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">늦은 밤
+											너의 집 앞 골목길에서</a> <a href="#" class="sg songArtist">노을</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="어떻게 이별까지 사랑하겠어, 널사랑하는 거지"></td>
+									<td class="number">40</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/40.jpg"
+											alt="어떻게 이별까지 사랑하겠어, 널사랑하는 거지">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">어떻게
+											이별까지 사랑하겠어, 널사랑하는 거지</a> <a href="#" class="sg songArtist">AKMU(악동뮤지션)</a>
+										<!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 --> <!-- <a href="#">화살표옆 앨범타이틀</a> -->
+									</td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="거짓말이라도 해서 널 보고싶어"></td>
+									<td class="number">41</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/41.jpg"
+											alt="거짓말이라도 해서 널 보고싶어">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">거짓말이라도
+											해서 널 보고싶어</a> <a href="#" class="sg songArtist">백지영</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="오늘도 빛나는 너에게(To You My Light)"></td>
+									<td class="number">42</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/42.jpg"
+											alt="오늘도 빛나는 너에게(To You My Light)">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">오늘도
+											빛나는 너에게(To You My Light)</a> <a href="#" class="sg songArtist">마크툽(Marktub)</a>
+										<!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 --> <!-- <a href="#">화살표옆 앨범타이틀</a> -->
+									</td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="시작"></td>
+									<td class="number">43</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/43.jpg" alt="시작">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">시작</a> <a
+										href="#" class="sg songArtist">가호(Gaho)</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check"
+										title="모든 날, 모든 순간(Every day, Every Moment)"></td>
+									<td class="number">44</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/44.jpg"
+											alt="모든 날, 모든 순간(Every day, Every Moment)">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">모든
+											날, 모든 순간(Every day, Every Moment)</a> <a href="#"
+										class="sg songArtist">폴킴</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="작은 것들을 위한 시"></td>
+									<td class="number">45</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/45.jpg" alt="작은 것들을 위한 시">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">작은
+											것들을 위한 시</a> <a href="#" class="sg songArtist">방탄소년단</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="처음처럼"></td>
+									<td class="number">46</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/46.jpg" alt="처음처럼">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">처음처럼</a>
+										<a href="#" class="sg songArtist">엠씨더맥스(M.C the MAX)</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="MORE & MORE"></td>
+									<td class="number">47</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/47.jpg" alt="MORE & MORE">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">MORE
+											& MORE</a> <a href="#" class="sg songArtist">TWICE(트와이스)</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="이제 나만 믿어요"></td>
+									<td class="number">48</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/48.jpg" alt="이제 나만 믿어요">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">이제
+											나만 믿어요</a> <a href="#" class="sg songArtist">임영웅</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="Monster"></td>
+									<td class="number">49</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/49.jpg" alt="Monster">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">Monster</a>
+										<a href="#" class="sg songArtist">아이린</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+								<tr class="list">
+									<!-- tr list -->
+									<td class="check"><input type="checkbox"
+										class="select-check" title="좋은 사람 있으면 소개시켜줘"></td>
+									<td class="number">50</td>
+									<td><a href="#" class="imge"> <span class="mask"></span>
+											<img src="C:/팀4/사진/지니차트/TOP 200/월간/50.jpg"
+											alt="좋은 사람 있으면 소개시켜줘">
+									</a></td>
+									<td class="info"><a href="#" class="sg songTitle">좋은
+											사람 있으면 소개시켜줘</a> <a href="#" class="sg songArtist">조이(JOY)</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+										<!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
+									<td class="btns"><a href="#" title="재생"
+										class="btn-img btn-listen" onclick="play_one()">듣기</a></td>
+									<td class="btns"><a href="#" title="추가"
+										class="btn-img btn-add" onclick="play_list()">추가</a></td>
+									<td class="btns"><a href="#" title="담기"
+										class="btn-img btn-album" onclick="login()">담기</a></td>
+									<td class="btns"><a href="#" title="다운"
+										class="btn-img btn-down" onclick="login()">다운</a></td>
+									<td class="btns"><a href="#" title="뮤비"
+										class="btn-img btn-movie">뮤비</a></td>
+								</tr>
+								<!-- tr list -->
+>>>>>>> branch 'main' of https://github.com/yugangChoe/SaDaRi.git
 							</tbody>
 						</table>   
 						<!-- song-list -->

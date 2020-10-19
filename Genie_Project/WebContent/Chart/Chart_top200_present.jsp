@@ -142,7 +142,6 @@
 							</div>
 						</li>
 						<!-- 지니차트끝 -->
-
 						<li>
 							<!-- 최신음악 --> <a
 							href="/Genie_Project/G_servlet?command=Newest_song_hot"

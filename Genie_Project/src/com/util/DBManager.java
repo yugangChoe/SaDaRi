@@ -13,9 +13,9 @@ import javax.sql.DataSource;
 public class DBManager {
 	public static Connection getConnection() {
 		//DB접속
-//		String user="c##KBO";
-//		String password="KBO";
-//		String url="jdbc:oracle:thin:@localhost:1521/orcl";
+//		String user="sys as sysdba";
+//		String password="1234";
+//		String url="jdbc:oracle:thin:@localhost:1521/xe";
 		
 		Connection con = null;
 		try {

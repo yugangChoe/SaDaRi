@@ -27,7 +27,7 @@ public class JoinForm_action implements Action {
 		G_DAO gD = G_DAO.getInstance();
 		gD.insertMember(join);
 		//메인페이지로 링크
-		// new BoardListAction().execute(request, response);
+		new Login_action().execute(request, response);
 	}
 
 }

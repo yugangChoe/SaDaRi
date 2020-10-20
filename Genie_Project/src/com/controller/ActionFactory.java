@@ -36,6 +36,7 @@ import com.controller.action.JoinForm_action;
 import com.controller.action.Join_action;
 import com.controller.action.LoginForm_action;
 import com.controller.action.Login_action;
+import com.controller.action.Main_action;
 import com.controller.action.Newest_album_all_action;
 import com.controller.action.Newest_album_hot_action;
 import com.controller.action.Newest_song_all_action;
@@ -149,6 +150,8 @@ public class ActionFactory {
 			action = new Song_MV_action();
 		} else if (command.equals("Song_play")) {
 			action = new Song_play_action();
+		} else if (command.equals("Main")) {
+			action = new Main_action();
 		}
 		return action;
 

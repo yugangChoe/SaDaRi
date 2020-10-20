@@ -4,7 +4,7 @@
 <html>
 <script>
 	function login() {
-		window.open("G_servlet?command=Login", "로그인", "width=470, height=430")
+		window.open("/Genie_Project/G_servlet?command=Login", "로그인", "width=470, height=430")
 	}
 </script>
 <body>

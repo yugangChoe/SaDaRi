@@ -14,8 +14,7 @@ public class LoginForm_action implements Action {
 
 	@Override
 	public void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// 작성중 로그인하면 어디로 갈껀지
-		String url = "LoginForm.jsp";
+		String url = "/etc/LoginForm.jsp";
 		G_DAO gD = G_DAO.getInstance();
 		String id = request.getParameter("id");
 		String pw = request.getParameter("pw");

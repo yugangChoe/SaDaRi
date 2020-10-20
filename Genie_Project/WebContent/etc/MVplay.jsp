@@ -153,68 +153,19 @@ div {
 }
 </style>
 <script>
-   function checkbox_play(num) {
-      var aa = document.getElementById("aa");
-      var songname = document.getElementById("songname");
-      var artist = document.getElementById("artist");
-      var songimg = document.getElementById("songimg");
-      switch (num) {
-      case 1:
-         songname.innerHTML = "Dynamite";
-         //songname.style.fontWeight='border';
-         artist.innerHTML = "방탄소년단";
-         document.getElementById("heart").innerHTML = '♡';
-         document.getElementById("play").innerHTML = '∥';
-         songimg.innerHTML = "<img src='C:/팀4/사진/지니차트/TOP 200/일간/1.jpg' width='220px' height='220px'>";
-         aa.innerHTML = "<iframe src='https://www.youtube.com/embed/zJCdkOpU90g?controls=0&amp;autoplay=1' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen hidden></iframe>";
-         break;
-      case 2: //저작권 문제 경고창
-         songname.innerHTML = "Bad Boy";
-         artist.innerHTML = "청하 & Christopher";
-         document.getElementById("heart").innerHTML = '♡';
-         document.getElementById("play").innerHTML = '▷';
-         songimg.innerHTML = "<img src='C:/팀4/사진/지니차트/TOP 200/일간/51.jpg' width='220px' height='220px'>";
-         alert("해당곡은 권리사의 요청으로 재생 할 수 없습니다.")
-         break;
-      case 3:
-         songname.innerHTML = "Tight";
-         artist.innerHTML = "10CM";
-         document.getElementById("heart").innerHTML = '♡';
-         document.getElementById("play").innerHTML = '∥';
-         songimg.innerHTML = "<img src='C:/팀4/사진/지니차트/TOP 200/일간/4.jpg' width='220px' height='220px'>";
-         aa.innerHTML = "<iframe src='https://www.youtube.com/embed/-xm5GpFwHw4?controls=0&amp;autoplay=1' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen hidden></iframe>";
-         break;
-      case 4:
-         songname.innerHTML = "오래된 노래";
-         artist.innerHTML = "Standing Egg";
-         document.getElementById("heart").innerHTML = '♡';
-         document.getElementById("play").innerHTML = '∥';
-         songimg.innerHTML = "<img src='C:/팀4/사진/지니차트/TOP 200/일간/2.jpg' width='220px' height='220px'>";
-         aa.innerHTML = "<iframe src='https://www.youtube.com/embed/bW3XExLBf7A?controls=0&amp;autoplay=1' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen hidden></iframe>";
-         break;
-         case 5:
-         songname.innerHTML = "내 마음이 움찔했던 순간";
-         artist.innerHTML = "규현";
-         document.getElementById("heart").innerHTML = '♡';
-         document.getElementById("play").innerHTML = '∥';
-         songimg.innerHTML = "<img src='C:/팀4/사진/지니차트/TOP 200/일간/5.jpg' width='220px' height='220px'>";
-         aa.innerHTML = "<iframe src='https://www.youtube.com/embed/3HKnF5ahGdg?controls=0&amp;autoplay=1' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen hidden></iframe>";
-         break; 
-      }
-   }
-   function play() {
-      document.getElementById("play").innerHTML = '▷'
-      aa.innerHTML = "<iframe width='220px' height='220px' src='https://www.youtube.com/embed/zJCdkOpU90g?controls=0&amp;autoplay=1' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen/>";
-   }
    function color() {
      var h=document.getElementById("heart");
+     var id=document.getElementById("like_id").value;
+     var stat=0;
      if(h.innerHTML=='♡'){
         h.innerHTML= '♥';
-       
+        stat=1;
+        window.open("/Genie_Project/G_servlet?command=likeCheck&id="+id+"&stat="+stat,"좋아요","width=10, height=10");
      }
      else if(h.innerHTML=='♥'){
         h.innerHTML= '♡';
-        
+        stat=0;
+        window.open("/Genie_Project/G_servlet?command=likeCheck&id="+id+"&stat="+stat,"좋아요","width=10, height=10");
      }
    }
    function login() {
@@ -239,6 +190,7 @@ div {
 					style="width: 560px; text-align: center; color: white; margin-left: 120px;">
 					<label id="songname" style="font-weight: bolder; font-size: 20px;"><strong>${songList.getTitle()}</strong></label><br>
 					<label id="artist" style="font-size: 15px;"><small>${songList.getArtist()}</small></label>
+					<input type="hidden" id="like_id" value="${songList.getSongid() }">
 				</fieldset>
 				<fieldset
 					style="font-size: 20px; width: 560px; text-align: right; color: white; margin-left: 120px;">

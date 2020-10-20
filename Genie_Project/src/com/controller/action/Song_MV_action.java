@@ -17,7 +17,7 @@ public class Song_MV_action implements Action {
 	public void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		//MV플레이어와 연동
 		//한곡 플레이만 가능
-		String url = "MVplay.jsp";
+		String url = "/etc/MVplay.jsp";
 		G_DAO gD = G_DAO.getInstance();
 		int songId=Integer.parseInt(request.getParameter("songid"));
 		SongVO songList = gD.selectOneSong(songId);

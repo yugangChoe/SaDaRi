@@ -19,7 +19,7 @@ public class Song_play_action implements Action {
 		//작성중
 		//웹플레이어와 연동
 		//한곡 플레이시 및 여러곡 플레이시 확인 요
-		String url = "play.jsp";
+		String url = "/etc/play.jsp";
 		G_DAO gD = G_DAO.getInstance();
 		
 		int songId=Integer.parseInt(request.getParameter("songid"));

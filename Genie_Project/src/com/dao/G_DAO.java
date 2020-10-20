@@ -204,7 +204,7 @@ public class G_DAO {
 		}
 	}
 
-	// 유저 정보 확인 - 작성중
+	// 유저 정보 확인 
 	public JoinVO checkId(String id) {
 		String sql = "select * from genie_member where id=?";
 		JoinVO jVo=new JoinVO();

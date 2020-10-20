@@ -14,7 +14,7 @@ public class idCheck_action implements Action {
 
 	@Override
 	public void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String url = "idCheck.jsp";
+		String url = "/etc/idCheck.jsp";
 		G_DAO gD = G_DAO.getInstance();
 		String id = request.getParameter("id");
 		JoinVO user = gD.checkId(id);

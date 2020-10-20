@@ -44,6 +44,7 @@ import com.controller.action.Song_MV_action;
 import com.controller.action.Song_info_action;
 import com.controller.action.Song_play_action;
 import com.controller.action.idCheck_action;
+import com.controller.action.likeCheck_action;
 
 public class ActionFactory {
 	private static ActionFactory instance = new ActionFactory();
@@ -140,6 +141,8 @@ public class ActionFactory {
 			action = new JoinForm_action();
 		} else if (command.equals("idCheck")) { //아이디 중복 확인
 			action = new idCheck_action();
+		} else if (command.equals("likeCheck")) { //아이디 중복 확인
+			action = new likeCheck_action();
 		} else if (command.equals("Song_info")) {
 			action = new Song_info_action();
 		} else if (command.equals("Song_MV")) {

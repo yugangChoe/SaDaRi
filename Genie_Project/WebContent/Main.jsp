@@ -1,3 +1,5 @@
+<%@page import="java.text.SimpleDateFormat"%>
+<%@page import="java.util.Date"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -495,7 +497,10 @@
                         <h2 class="sub-title">
                             <a href="#">실시간 차트</a>
                         </h2>
-                        <p class="date">2020.10.17&nbsp;18:00</p>
+                        <%Date nowTime = new Date();
+                        	SimpleDateFormat sf = new SimpleDateFormat("yyyy.mm.dd a hh:mm");
+                        %>
+                        <p class="date"><%=sf.format(nowTime) %></p>
                         <div class="music-list-wrap">
                             <!-- <span class="balloon"><span class="hide">더보기 버튼으로 </span>순위변동 한눈에 보기</span> -->
                             <table class="list-wrap">

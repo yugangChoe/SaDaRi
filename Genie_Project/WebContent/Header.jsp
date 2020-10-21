@@ -6,6 +6,9 @@
    function login() {
       window.open("/Genie_Project/G_servlet?command=Login", "로그인", "width=470, height=430")
    }
+	function login() {
+		window.open("/Genie_Project/G_servlet?command=Login", "로그인", "width=470, height=430")
+	}
 </script>
 <body>
    <div class="wrap-head" style="z-index: 90;">

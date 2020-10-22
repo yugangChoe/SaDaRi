@@ -28,11 +28,15 @@
                     }
                 }
             function play_one(num){
-                window.open("/Genie_Project/G_servlet?command=Song_play&songid="+num,"플레이리스트","width=1200, height=630");
-                var num=num;
+            	var cookie=0;
+                window.open("/Genie_Project/G_servlet?command=Song_play&songid="+num+"&cookie="+cookie,"플레이리스트","width=1200, height=630");
+            }
+            function add_list(num){
+            	var cookie=1;
+            	window.open("/Genie_Project/G_servlet?command=Song_play&songid="+num+"&cookie="+cookie,"플레이리스트","width=1200, height=630");
             }
             function play_list(num){
-                window.open("/Genie_Project/G_servlet?command=Song_play","플레이리스트","width=1200, height=630");
+                window.open("/Genie_Project/G_song?command=Song_play","플레이리스트","width=1200, height=630");
             }
             function login(){
                 window.open("/Genie_Project/G_servlet?command=Login","로그인","width=470, height=430")
@@ -220,7 +224,7 @@
                                  class="btn-img btn-listen"
                                  onclick="play_one(${songList[i].getSongid()})">듣기</a></td>
                               <td class="btns"><a href="#" title="추가"
-                                 class="btn-img btn-add" onclick="play_list(1)">추가</a></td>
+                                 class="btn-img btn-add" onclick="add_list(${songList[i].getSongid()})">추가</a></td>
                               <td class="btns"><a href="#" title="담기"
                                  class="btn-img btn-album" onclick="login()">담기</a></td>
                               <td class="btns"><a href="#" title="다운"

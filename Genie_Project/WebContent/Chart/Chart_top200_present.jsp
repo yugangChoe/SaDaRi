@@ -1,3 +1,5 @@
+<%@page import="java.text.SimpleDateFormat"%>
+<%@page import="java.util.Date"%>
 <%@page import="java.util.Vector"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
    pageEncoding="UTF-8"%>
@@ -11,8 +13,13 @@
 <title>Top200_present</title>
 <script type="text/javascript"
    src="https://www.gstatic.com/charts/loader.js">
+google.charts.load('current', {packages: ['corechart']});
+google.charts.setOnLoadCallback(function(){ drawChart(new_option)});
+google.charts.setOnLoadCallback(function(){ drawChart(new_option2)});
+
 </script>
 <script>
+
             var login_st=0;
                 function login(){
                     if(login_st==0){
@@ -51,68 +58,39 @@
                 google.charts.load('current', {'packages':['corechart']});
         google.charts.setOnLoadCallback(drawChart);
   
-        function drawChart() {
+        	google.charts.load("current", {packages:['corechart']});
+            google.charts.setOnLoadCallback(drawChart);
+            function drawChart() {
+              var data = google.visualization.arrayToDataTable([
+                ["Element", "Like", { role: "style" } ],
+                ["다시 여기 바닷가", 50, "red"],
+                ["눈누난나", 49, "blue"],
+                ["그 여름을 틀어줘", 48, "color: yellow"],
+                ["LINDA(Feat.윤미래)", 47, "color: pink"],
+                ["마리아",46, "color: green"]
+              ]);
 
+              var view = new google.visualization.DataView(data);
+              view.setColumns([0, 1,
+                               { calc: "stringify",
+                                 sourceColumn: 1,
+                                 type: "string",
+                                 role: "annotation" },
+                               2]);
 
-          var data = google.visualization.arrayToDataTable([
-            //[시간, Ba, Dy, Ti, 오, 내]
-            ['Hour', '다시 여기 바닷가','눈누난나','그 여름을 틀어줘','LINDA','마리아'],
-            [0,   73, 62, 57, 53, 44],
-            [1,   68, 60, 55, 54, 43],
-            [2,   67, 61, 57, 53, 42],
-            [3,   65, 61, 54, 52, 43],
-            [4,   68, 62, 55, 51, 42],
-            [5,   71, 65, 58, 54, 41],
-            [6,   74, 67, 57, 53, 43],
-            [7,   72, 62, 58, 52, 45],
-            [8,   73, 62, 56, 52, 43],
-            [9,   74, 62, 57, 51, 42],
-            [10,  72, 62, 55, 52, 42],
-            [11,  74, 61, 53, 53, 41],
-            [12,  69, 60, 52, 51, 38],
-            [13,  65, 58, 52, 50, 38],
-            [14,  66, 57, 52, 48, 40],
-            [15,  66, 57, 52, 48, 40],
-            [16,  66, 57, 53, 48, 40],
-            [17,  66, 57, 55, 49, 40],
-            [18,  66, 57, 57, 52, 40],
-            [19,  66, 62, 58, 54, 50],
-            [20,  87, 76, 65, 58, 61],
-            [21,  84, 73, 69, 62, 59],
-            [22,  82, 72, 67, 61, 58],
-            [23,  80, 70, 65, 60, 57],
-            [24,  73, 62, 57, 53, 44]
-            ]);
-  
-        //   var options = {
-        //     title: 'Company Performance',
-        //     curveType: 'function',
-        //     legend: { position: 'bottom' }
-        //   };
-        var options = {
-            // chart: {
-            title: '실시간 차트 점유율 그래프',
-            subtitle: '1~5위',
-            // },
-            width: 700,
-            height: 400,
-            vAxis:{ textPosition:'none',
-                    maxValue:100,
-                    minValue: 0,
-                    
-                },
-            hAxis:{
-                    viewWindowMode:'expicit',
-                    viewWindow:{min:0, max: 24},
-                    ticks: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24], 
-                    gridlines: 24},
-            axes: {x: {0: {side: 'bottom'}}}
-            
-        };
-          var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
-  
-          chart.draw(data, options);
-        }
+              var options = {
+                title: "실시간 차트 Like 그래프",
+                width: 750,
+                height: 400,
+                bar: {groupWidth: "95%"},
+                legend: { position: "none" },
+              };
+              var chart = new google.visualization.ColumnChart(document.getElementById("columnchart_values"));
+              setInterval(function(){
+              chart.draw(view, options);
+              }, 1000);
+          }
+
         </script>
 </head>
 <body>
@@ -147,10 +125,11 @@
             <div class="chart-date">
                <div class="date">
                   <h3>
-                     <span id="inc_date">2020.09.29</span>
-                     <time>
-                        <span id="inc_time">02:00</span>
-                     </time>
+                    <%
+                   Date nowTime = new Date();
+                        SimpleDateFormat sf = new SimpleDateFormat("yyyy.mm.dd a hh:mm");
+                  %>
+                       <p class="date"><%=sf.format(nowTime) %></p>
                   </h3>
                   <a href="#"> <img src="C:/팀4/사진/이미지/time.png" alt="시간 보기">
                   </a>
@@ -172,7 +151,7 @@
                </ul>
             </div>
             <!--chart-date -->
-            <div id="curve_chart" onload="drawChart()"></div>
+        <div id="columnchart_values" ></div>
             <div class="song-list">
                <div class="song-list-wrap">
                   <div class="toolbar">
@@ -213,7 +192,7 @@
                               <td><a href="#" class="imge"
                                  onclick="img(${songList[i].getSongid()})"> <span
                                     class="mask"></span> <img
-                                    src="C:/Users/최유강/Desktop/팀4 (2)/사진/지니차트/TOP 200/월간/${songList[i].getSongid() }.jpg"
+                                    src="/Genie_Project/img/song/${songList[i].getSongid() }.jpg"
                                     alt="${songList[i].getTitle() }">
                               </a></td>
                               <td class="info"><a href="#" class="sg songTitle">${songList[i].getTitle()}</a>

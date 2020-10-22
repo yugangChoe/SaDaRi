@@ -164,7 +164,7 @@ div {
 }
 </style>
 <script>
-        function checkbox_play(){
+        function checkbox_play(){ //펑션 자체는 작동함, 왜 값이 바뀌지 않는걸까?
             var aa=document.getElementById("aa");
             var songname=document.getElementById("songname");
             var artist=document.getElementById("artist");
@@ -176,6 +176,7 @@ div {
             var artist_r=document.getElementById("artist_r").value;
             var title_r=document.getElementById("title_r").value;
             var img_r=document.getElementById("img_r").value;
+        	//alert(id_r+":"+url_r+":"+artist_r+":"+title_r+":"+img_r);
             
             aa.innerHTML=utl_r;
             songname.innerHTML=title_r;
@@ -275,12 +276,7 @@ div {
 			style="width: 220px; text-align: center; margin-left: 120px;">
 			<label id="songimg"><img src="/Genie_Project/img/song/${songList[0].getSongid() }.jpg" alt="${songList[0].getTitle() }"
 				width="220px" height="220px"></label> 
-			<label id="aa"><iframe
-					width='560px' height='315px' src='${songList[0].getG_url()}'
-					frameborder='0'
-					allow='accelerometer; autoplay;
-						clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-					allowfullscreen hidden> </iframe></label>
+			<label id="aa"><iframe width='560px' height='315px' src='${songList[0].getG_url()}' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen hidden> </iframe></label>
 		</fieldset>
 		<fieldset
 			style="width: 220px; text-align: center; margin-left: 120px; color: white;">
@@ -386,7 +382,7 @@ div {
 					<td colspan="3">${songList[i].getTitle()}<br> <small
 						style="color: #8d8d8d;">${songList[i].getArtist()}</small></td>
 					<td><input type="button"
-						onclick="checkbox_play()" value="▶"
+						onclick="checkbox_play(this)" value="▶"
 						style="font-size: 10px; margin: 0px; padding: 4px; border: 1px solid #d9dde9; border-radius: 4px; background-color: white;"></td>
 					<td style="font-size: 12px;">더보기</td>
 					<input type="hidden" id="id_r" value="${songList[i].getSongid() }">

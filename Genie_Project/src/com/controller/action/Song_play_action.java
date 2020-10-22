@@ -30,17 +30,21 @@ public class Song_play_action implements Action {
 		
 		int cookie=Integer.parseInt(request.getParameter("cookie"));
 		String songId=request.getParameter("songid");
-		Cookie songCookie=null;
+		//Cookie songCookie=null;
 		
 		if (cookie==1) { //곡 추가
 			
 			if(cookies != null) { //기존에 곡 있을때 
-				System.out.println("ac8");
 				for(int i=0;i<cookies.length;i++) {
-					int a=Integer.parseInt(cookies[i].getValue());
-					info_num.add(a);
+					Cookie songCookie=cookies[i];
+					if(songCookie.getName().equals("song")) {
+						int a=Integer.parseInt(cookies[i].getValue());
+						info_num.add(a);
+						break;
+						
+					}
 				}
-				songCookie=new Cookie("song",songId); //쿠키 생성
+				Cookie songCookie=new Cookie("song",songId); //쿠키 생성
 				songCookie.setPath("/"); //모든경로에서 접근 가능
 				songCookie.setMaxAge(60*60*12); //12시간
 				response.addCookie(songCookie); //응답에 쿠키 추가
@@ -59,7 +63,7 @@ public class Song_play_action implements Action {
 					response.addCookie(cookies[i]); //응답에 쿠키 추가
 				}
 			}
-			songCookie=new Cookie("song",songId); //쿠키 생성
+			Cookie songCookie=new Cookie("song",songId); //쿠키 생성
 			songCookie.setPath("/"); //모든경로에서 접근 가능
 			songCookie.setMaxAge(60*60*24); //하루
 			response.addCookie(songCookie); //쿠키 추가

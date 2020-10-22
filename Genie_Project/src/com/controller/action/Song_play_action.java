@@ -39,8 +39,10 @@ public class Song_play_action implements Action {
 					int a=Integer.parseInt(cookies[i].getValue());
 					info_num.add(a);
 				}
-				Cookie songCookie=new Cookie("song",songId);
-				response.addCookie(songCookie);
+				Cookie songCookie=new Cookie("song",songId); //쿠키 생성
+				songCookie.setPath("/"); //모든경로에서 접근 가능
+				songCookie.setMaxAge(60*60*12); //12시간
+				response.addCookie(songCookie); //응답에 쿠키 추가
 				info_num.add(Integer.parseInt(songId));
 			}
 			for(int i=0;i<info_num.size();i++) {
@@ -50,9 +52,16 @@ public class Song_play_action implements Action {
 			}
 			
 		}else if(cookie==0) { //한곡 재생
-			cookies=null;
-			Cookie songCookie=new Cookie("song",songId);
-			response.addCookie(songCookie);
+			if(cookies!=null) {
+				for(int i=0;i<cookies.length;i++) {
+					cookies[i].setMaxAge(0); //쿠키 유효시간을 0으로 설정하여 만료
+					response.addCookie(cookies[i]); //응답에 쿠키 추가
+				}
+			}
+			Cookie songCookie=new Cookie("song",songId); //쿠키 생성
+			songCookie.setPath("/"); //모든경로에서 접근 가능
+			songCookie.setMaxAge(60*60*24); //하루
+			response.addCookie(songCookie); //쿠키 추가
 			info_num.add(Integer.parseInt(songId));
 			
 			for(int i=0;i<info_num.size();i++) {
@@ -62,7 +71,6 @@ public class Song_play_action implements Action {
 			}
 			
 		}
-		
 		request.setAttribute("songList", songList);
 		RequestDispatcher dispatcher = request.getRequestDispatcher(url);
 		dispatcher.forward(request, response);

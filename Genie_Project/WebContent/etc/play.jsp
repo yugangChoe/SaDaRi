@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+	<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -163,12 +164,25 @@ div {
 }
 </style>
 <script>
-        function checkbox_play(url){
+        function checkbox_play(){
             var aa=document.getElementById("aa");
             var songname=document.getElementById("songname");
             var artist=document.getElementById("artist");
             var songimg=document.getElementById("songimg");
-            aa.innerHTML="<iframe src='url'?controls=0&amp;autoplay=1' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen hidden></iframe>";
+            var like_id=document.getElementById("like_id");
+            
+            var id_r=document.getElementById("id_r").value;
+            var url_r=document.getElementById("url_r").value;
+            var artist_r=document.getElementById("artist_r").value;
+            var title_r=document.getElementById("title_r").value;
+            var img_r=document.getElementById("img_r").value;
+            
+            aa.innerHTML=utl_r;
+            songname.innerHTML=title_r;
+            artist.innerHTML=artist_r;
+            songimg.innerHTML=img_r;
+            like_id.innerHTML=id_r;
+            
             
             /*switch (num){
                 case 1:
@@ -259,8 +273,9 @@ div {
 		</div>
 		<fieldset
 			style="width: 220px; text-align: center; margin-left: 120px;">
-			<label id="songimg"><img src="C:/팀4/사진/지니차트/TOP 200/일간/1.jpg"
-				width="220px" height="220px"></label> <label id="aa"><iframe
+			<label id="songimg"><img src="/Genie_Project/img/song/${songList[0].getSongid() }.jpg" alt="${songList[0].getTitle() }"
+				width="220px" height="220px"></label> 
+			<label id="aa"><iframe
 					width='560px' height='315px' src='${songList[0].getG_url()}'
 					frameborder='0'
 					allow='accelerometer; autoplay;
@@ -363,18 +378,24 @@ div {
 		<hr>
 		<div id="music">
 			<table>
-
+				<c:forEach var="i" begin="0" end="${songList.size()-1}">
 
 				<tr>
 					<td><input type="checkbox" name="list_check" value="1"
 						style="margin-left: 20px;"></td>
-					<td colspan="3">${songList[0].getTitle()}<br> <small
-						style="color: #8d8d8d;">${songList[0].getArtist()}</small></td>
+					<td colspan="3">${songList[i].getTitle()}<br> <small
+						style="color: #8d8d8d;">${songList[i].getArtist()}</small></td>
 					<td><input type="button"
-						onclick="checkbox_play(${songList[0].getG_url()})" value="▶"
+						onclick="checkbox_play()" value="▶"
 						style="font-size: 10px; margin: 0px; padding: 4px; border: 1px solid #d9dde9; border-radius: 4px; background-color: white;"></td>
 					<td style="font-size: 12px;">더보기</td>
+					<input type="hidden" id="id_r" value="${songList[i].getSongid() }">
+					<input type="hidden" id="url_r" value="<iframe width='560px' height='315px' src='${songList[i].getG_url()}' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen hidden></iframe>">
+					<input type="hidden" id="artist_r" value="${songList[i].getArtist() }">
+					<input type="hidden" id="title_r" value="${songList[i].getTitle() }">
+					<input type="hidden" id="img_r" value="<img src='/Genie_Project/img/song/${songList[i].getSongid() }.jpg' image-view='true'>">
 				</tr>
+				</c:forEach>
 				<!-- 
         <tr>
             <td><input type="checkbox" name="list_check" value="1" style="margin-left: 20px;"></td>
@@ -429,7 +450,7 @@ div {
 						style="font-size: 13px; margin: 0px; padding: 4px; border: 1px solid #d9dde9; border-radius: 4px; background-color: white;">
 					</td>
 					<td><span id="span1" style="margin-left: 150px; color: aqua;">1</span><span
-						style="color: aqua;">곡</span><span> / </span><span>5</span><span>곡</span></td>
+						style="color: aqua;">곡</span><span> / </span><span>${songList.size()}</span><span>곡</span></td>
 				</tr>
 
 			</div>

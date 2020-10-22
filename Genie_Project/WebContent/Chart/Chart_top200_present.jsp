@@ -197,7 +197,8 @@ google.charts.setOnLoadCallback(function(){ drawChart(new_option2)});
                               </a></td>
                               <td class="info"><a href="#" class="sg songTitle">${songList[i].getTitle()}</a>
                                  <a href="#" class="sg songArtist">${songList[i].getArtist()}</a>
-                                 ${songList[i].getSongid()} ${songList[i].getG_like() } <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
+                                 ${songList[i].getSongid()} 
+                                 <input type='hidden' id="chart_${i }" value='${songList[i].getG_like() }'> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
                                  <!-- <a href="#">화살표옆 앨범타이틀</a> --></td>
                               <td class="btns"><a href="#" title="재생"
                                  class="btn-img btn-listen"

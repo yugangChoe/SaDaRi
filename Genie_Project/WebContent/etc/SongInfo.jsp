@@ -101,7 +101,7 @@ ul {
 		var songImg = document.getElementById("songImg");
 		switch (songID) {
 		case 1:
-			songImg.innerHTML="<img src='/Genie_Project/img/song/1.jpg' image-view='true'>"
+			songImg.innerHTML="<img src='/Genie_Project/img/song/1.jpg' image-view='true'>";
 			break;
 		case 2:
 			songImg.innerHTML = "<img src='/Genie_Project/img/song/2.jpg' image-view='true'>";

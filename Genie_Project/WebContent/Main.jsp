@@ -551,10 +551,10 @@
               <div class="carousel-inner">
           
                 <div class="item active">
-                  <img src="C:/Users/최유강/Desktop/팀4 (2)/사진/이미지/1.jpg" alt="Los Angeles" style="width:100%; height: 400px;">
+                  <img src="사진 집어넣기" alt="사진 정보 " style="width:100%; height: 400px;">
                   <div class="carousel-caption">
-                    <h3 style="color: black;">방탄소년단</h3>
-                    <p style="color: black;">BTS</p>
+                    <h3 style="color: black;">노래제목</h3>
+                    <p style="color: black;">가수이름</p>
                   </div>
                 </div>
           
@@ -594,7 +594,8 @@
                         <h2 class="sub-title">
                             <a href="#">실시간 차트</a>
                         </h2>
-                        <%Date nowTime = new Date();
+                        <%
+                        Date nowTime = new Date();
                         	SimpleDateFormat sf = new SimpleDateFormat("yyyy.mm.dd a hh:mm");
                         %>
                         <p class="date"><%=sf.format(nowTime) %></p>

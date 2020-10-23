@@ -23,7 +23,7 @@
                 padding: 0;
                 font-size: 100%;
                 text-decoration: none;
-            }
+            } 
             #wrap-body {
                 width: 100%;
                 padding-bottom: 100px;

@@ -1,7 +1,7 @@
 <%@page import="java.text.SimpleDateFormat"%>
 <%@page import="java.util.Date"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+   pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -267,171 +267,171 @@
 
             /* footer */
 .footer {
-	position: relative;
-	width: 100%;
-	height: 300px;
-	border-top: 1px solid black;
+   position: relative;
+   width: 100%;
+   height: 300px;
+   border-top: 1px solid black;
 }
 
 .footer .notice {
-	width: 940px;
-	height: 74px;
+   width: 940px;
+   height: 74px;
 }
 
 .footer .ft-info {
-	position: relative;
-	width: 940px;
-	margin: 0 auto;
+   position: relative;
+   width: 940px;
+   margin: 0 auto;
 }
 
 .footer .link-wrap {
-	position: relative;
-	width: 774px;
-	padding: 12px 0 0;
+   position: relative;
+   width: 774px;
+   padding: 12px 0 0;
 }
 
 .footer .link-wrap li {
-	display: inline-block;
+   display: inline-block;
 }
 
 .footer .link-wrap li a {
-	text-decoration: none;
+   text-decoration: none;
 }
 
 .footer .info-company {
-	position: relative;
-	width: 940px;
-	margin: 0 auto;
-	line-height: 20px;
+   position: relative;
+   width: 940px;
+   margin: 0 auto;
+   line-height: 20px;
 }
 
 .footer .info-company .logo-campany {
-	display: block;
-	width: 101px;
-	height: 19px;
-	top: 10px;
-	left: 0;
+   display: block;
+   width: 101px;
+   height: 19px;
+   top: 10px;
+   left: 0;
 }
 
 .footer .info-company dt {
-	display: inline-block;
+   display: inline-block;
 }
 
 .footer .info-company dd {
-	display: inline-block;
-	position: relative;
-	padding-right: 8px;
-	font-size: 14px;
+   display: inline-block;
+   position: relative;
+   padding-right: 8px;
+   font-size: 14px;
 }
 .wrap-head { /*첫 헤드 */
-	position: relative;
-	width: 100%;
-	margin-bottom: 14px;
-	border-bottom: 1px solid #d2d2d2;
+   position: relative;
+   width: 100%;
+   margin-bottom: 14px;
+   border-bottom: 1px solid #d2d2d2;
 }
 
 .wrap-head .head-list { /* 로고 및 지니차트 리스트 */
-	position: relative;
-	width: 940px;
-	height: 120px;
-	margin: 0 auto;
-	padding: 18px 0 0 159px;
+   position: relative;
+   width: 940px;
+   height: 120px;
+   margin: 0 auto;
+   padding: 18px 0 0 159px;
 }
 
 .wrap-head .head-list .logo { /*헤드 로고 */
-	display: block;
-	position: absolute;
-	top: 12px;
-	left: -3px;
-	width: 134px;
-	height: 56px;
+   display: block;
+   position: absolute;
+   top: 12px;
+   left: -3px;
+   width: 134px;
+   height: 56px;
 }
 
 .wrap-head .head-list .logo a { /* 로고 안 a 태그*/
-	display: block;
-	width: 100%;
-	height: 100%;
-	background: url("C:/팀4/사진/이미지/logo_genie.png") no-repeat 0 0;
-	line-height: 0;
-	text-indent: -9999px;
+   display: block;
+   width: 100%;
+   height: 100%;
+   background: url("C:/팀4/사진/이미지/logo_genie.png") no-repeat 0 0;
+   line-height: 0;
+   text-indent: -9999px;
 }
 
 .wrap-head .gnb {
-	position: relative;
-	width: 940px;
-	margin: 0 auto;
+   position: relative;
+   width: 940px;
+   margin: 0 auto;
 }
 
 .wrap-head .gnb .menu-list {
-	display: block;
-	position: relative;
-	margin-top: 25px;
+   display: block;
+   position: relative;
+   margin-top: 25px;
 }
 
 .wrap-head .gnb .menu-list li {
-	float: left;
-	position: relative;
+   float: left;
+   position: relative;
 }
 
 .wrap-head .gnb .gnb-menu {
-	display: block;
-	position: relative;
-	padding: 0 150px 0 0;
-	font-size: 24px;
-	font-weight: 700;
+   display: block;
+   position: relative;
+   padding: 0 150px 0 0;
+   font-size: 24px;
+   font-weight: 700;
 }
 
 .wrap-head .sub_menu {
-	/* display: none; 리스트 사라지게 */
-	position: absolute;
+   /* display: none; 리스트 사라지게 */
+   position: absolute;
 }
 
 .wrap-head .sub_menu .bd {
-	position: relative;
-	z-index: 1;
-	zoom: 1;
+   position: relative;
+   z-index: 1;
+   zoom: 1;
 }
 
 .wrap-head .sub_menu .bd a {
-	display: block;
-	padding: 5px 16px 3px;
+   display: block;
+   padding: 5px 16px 3px;
 }
 /*서브메뉴 나열 관련*/
 #sub_menu_chart, #sub_menu_newest, #sub_menu_genre {
-	opacity: 0;
-	visibility: hidden;
-	background-color: skyblue;
+   opacity: 0;
+   visibility: hidden;
+   background-color: skyblue;
 }
 
 #main_menu>li:hover #sub_menu_chart, #main_menu>li:hover #sub_menu_newest,
-	#main_menu>li:hover #sub_menu_genre {
-	opacity: 1;
-	visibility: visible;
-	border-top: 3px solid skyblue;
-	background-color: red;
-	position: relative;
+   #main_menu>li:hover #sub_menu_genre {
+   opacity: 1;
+   visibility: visible;
+   border-top: 3px solid skyblue;
+   background-color: red;
+   position: relative;
 }
 /* header css 끝*/
 /*로그인/회원가입 css*/
 .wrap-head .gnb_my {
-	display: inline-block;
-	width: 122px;
-	height: 22px;
+   display: inline-block;
+   width: 122px;
+   height: 22px;
 }
 
 .gnb_btn {
-	border: 1px solid wtesmoke;
-	background-color: white;
+   border: 1px solid wtesmoke;
+   background-color: white;
 }
 
 #login_list {
-	border: 1px solid #656565;
-	opacity: 0;
-	visibility: hidden;
+   border: 1px solid #656565;
+   opacity: 0;
+   visibility: hidden;
 }
 
 .list_login {
-	text-align: center;
+   text-align: center;
 }
         </style>
     </head>
@@ -536,7 +536,7 @@
       <!-- head-list -->
    </div>
    <!-- wrap-header -->
-		<!-- 헤더 끝 -->
+      <!-- 헤더 끝 -->
         <div class="container">
             <h2>인기순위</h2>
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -545,33 +545,54 @@
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+                <li data-target="#myCarousel" data-slide-to="7"></li>
+                <li data-target="#myCarousel" data-slide-to="8"></li>
+                <li data-target="#myCarousel" data-slide-to="9"></li>
+                <li data-target="#myCarousel" data-slide-to="10"></li>
               </ol>
           
               <!-- Wrapper for slides -->
-              <div class="carousel-inner">
+ <div class="carousel-inner">
           
                 <div class="item active">
-                  <img src="사진 집어넣기" alt="사진 정보 " style="width:100%; height: 400px;">
-                  <div class="carousel-caption">
-                    <h3 style="color: black;">노래제목</h3>
-                    <p style="color: black;">가수이름</p>
-                  </div>
+                  <img src="/Genie_Project/img/m/m1.png" alt="다시여기바닷가" style="margin-left:20%; width:60%; height: 400px;">
                 </div>
           
                 <div class="item">
-                  <img src="C:/Users/최유강/Desktop/팀4 (2)/사진/이미지/1.jpg" alt="Chicago" style="width:100%;height: 400px;">
+                  <img src="/Genie_Project/img/m/m2.png" alt="눈누난나" style="margin-left:20%; width:60%; height: 400px;">
+                </div>
+                <div class="item">
+                  <img src="/Genie_Project/img/m/m3.png" alt="그 여름을 틀어줘" style="margin-left:20%; width:60%; height: 400px;">
+                </div>
+                <div class="item">
+                  <img src="/Genie_Project/img/m/m4.png" alt="LINDA(Feat. 윤미래)" style="margin-left:20%; width:60%; height: 400px;">
                   <div class="carousel-caption">
-                    <h3 style="color: black;">방탄소년단</h3>
-                    <p style="color: black;">BTS</p>
                   </div>
+                </div>
+                <div class="item">
+                  <img src="/Genie_Project/img/m/m5.png" alt="마리아" style="margin-left:20%; width:60%; height: 400px;">
+                </div>
+                <div class="item">
+                  <img src="/Genie_Project/img/m/m6.png" alt="신난다(Feat. 마마무)" style="margin-left:20%; width:60%; height: 400px;">
+                </div>
+                <div class="item">
+                  <img src="/Genie_Project/img/m/m7.png" alt="How You Like That" style="margin-left:20%; width:60%; height: 400px;">
                 </div>
               
                 <div class="item">
-                  <img src="C:/Users/최유강/Desktop/팀4 (2)/사진/이미지/1.jpg" alt="New York" style="width:100%;height: 400px;">
+                  <img src="/Genie_Project/img/m/m8.png" alt="홀로" style="margin-left:20%; width:60%; height: 400px;">
+                </div>
+                <div class="item">
+                  <img src="/Genie_Project/img/m/m9.png" alt="When We Disco" style="margin-left:20%; width:60%; height: 400px;">
                   <div class="carousel-caption">
-                    <h3 style="color: black;">방탄소년단</h3>
-                    <p style="color: black;">BTS</p>
                   </div>
+                </div>
+                <div class="item">
+                  <img src="/Genie_Project/img/m/m10.png" alt="아틀란티스 소녀" style="margin-left:20%; width:60%; height: 400px;">
                 </div>
             
               </div>
@@ -594,9 +615,8 @@
                         <h2 class="sub-title">
                             <a href="#">실시간 차트</a>
                         </h2>
-                        <%
-                        Date nowTime = new Date();
-                        	SimpleDateFormat sf = new SimpleDateFormat("yyyy.mm.dd a hh:mm");
+                        <%Date nowTime = new Date();
+                           SimpleDateFormat sf = new SimpleDateFormat("yyyy.mm.dd a hh:mm");
                         %>
                         <p class="date"><%=sf.format(nowTime) %></p>
                         <div class="music-list-wrap">
@@ -618,86 +638,108 @@
                                         <td class="number">1</td>
                                         <td class="td-rank"><span class="rank"><span class=" rank-none "><span class="rank-txt">변동 없음</span></span></span></td>
                                         <td class="info">
-                                            <a href="#" class="cover" onclick=""><span class="mask"></span><img src="사진들어가용" alt="앨범 제목이 들어갑니다."></a>
-                                            <a href="#" class="title ellipsis" title="새창 열림" onclick="">DON'T TOUCH ME</a>
-                                            <a href="#" class="artist ellipsis" onclick="">환불원정대</a>
+                                            <a href="#" class="cover" onclick=""><span class="mask"></span><img src="/Genie_Project/img/song/1.jpg" alt="앨범 제목이 들어갑니다."></a>
+                                            <a href="#" class="title ellipsis" title="새창 열림" onclick="">다시여기바닷가</a>
+                                            <a href="#" class="artist ellipsis" onclick="">싹쓰리</a>
                                         </td>
                                         <td class="btns"><a href="#" class="btn-basic btn-listen" title="새창 열림" onclick="">듣기</a></td>
                                         <td class="btns"><a href="#" class="btn-basic btn-add" title="새창 열림" onclick="">재생목록에 추가</a></td>
                                     </tr>
                                     <tr class="list">
-                                        <td class="number">1</td>
+                                        <td class="number">2</td>
                                         <td class="td-rank"><span class="rank"><span class=" rank-none "><span class="rank-txt">변동 없음</span></span></span></td>
                                         <td class="info">
-                                            <a href="#" class="cover" onclick=""><span class="mask"></span><img src="사진들어가용" alt="앨범 제목이 들어갑니다."></a>
-                                            <a href="#" class="title ellipsis" title="새창 열림" onclick="">DON'T TOUCH ME</a>
-                                            <a href="#" class="artist ellipsis" onclick="">환불원정대</a>
+                                            <a href="#" class="cover" onclick=""><span class="mask"></span><img src="/Genie_Project/img/song/2.jpg" alt="앨범 제목이 들어갑니다."></a>
+                                            <a href="#" class="title ellipsis" title="새창 열림" onclick="">눈누난나</a>
+                                            <a href="#" class="artist ellipsis" onclick="">제시</a>
                                         </td>
                                         <td class="btns"><a href="#" class="btn-basic btn-listen" title="새창 열림" onclick="">듣기</a></td>
                                         <td class="btns"><a href="#" class="btn-basic btn-add" title="새창 열림" onclick="">재생목록에 추가</a></td>
                                     </tr>
                                     <tr class="list">
-                                        <td class="number">1</td>
+                                        <td class="number">3</td>
                                         <td class="td-rank"><span class="rank"><span class=" rank-none "><span class="rank-txt">변동 없음</span></span></span></td>
                                         <td class="info">
-                                            <a href="#" class="cover" onclick=""><span class="mask"></span><img src="사진들어가용" alt="앨범 제목이 들어갑니다."></a>
-                                            <a href="#" class="title ellipsis" title="새창 열림" onclick="">DON'T TOUCH ME</a>
-                                            <a href="#" class="artist ellipsis" onclick="">환불원정대</a>
+                                            <a href="#" class="cover" onclick=""><span class="mask"></span><img src="/Genie_Project/img/song/3.jpg" alt="앨범 제목이 들어갑니다."></a>
+                                            <a href="#" class="title ellipsis" title="새창 열림" onclick="">그 여름을 틀어줘</a>
+                                            <a href="#" class="artist ellipsis" onclick="">싹쓰리</a>
                                         </td>
                                         <td class="btns"><a href="#" class="btn-basic btn-listen" title="새창 열림" onclick="">듣기</a></td>
                                         <td class="btns"><a href="#" class="btn-basic btn-add" title="새창 열림" onclick="">재생목록에 추가</a></td>
                                     </tr>
                                     <tr class="list">
-                                        <td class="number">1</td>
+                                        <td class="number">4</td>
                                         <td class="td-rank"><span class="rank"><span class=" rank-none "><span class="rank-txt">변동 없음</span></span></span></td>
                                         <td class="info">
-                                            <a href="#" class="cover" onclick=""><span class="mask"></span><img src="사진들어가용" alt="앨범 제목이 들어갑니다."></a>
-                                            <a href="#" class="title ellipsis" title="새창 열림" onclick="">DON'T TOUCH ME</a>
-                                            <a href="#" class="artist ellipsis" onclick="">환불원정대</a>
+                                            <a href="#" class="cover" onclick=""><span class="mask"></span><img src="/Genie_Project/img/song/4.jpg" alt="앨범 제목이 들어갑니다."></a>
+                                            <a href="#" class="title ellipsis" title="새창 열림" onclick="">LINDA(Feat. 윤미래)</a>
+                                            <a href="#" class="artist ellipsis" onclick="">린다G</a>
                                         </td>
                                         <td class="btns"><a href="#" class="btn-basic btn-listen" title="새창 열림" onclick="">듣기</a></td>
                                         <td class="btns"><a href="#" class="btn-basic btn-add" title="새창 열림" onclick="">재생목록에 추가</a></td>
                                     </tr>
                                     <tr class="list">
-                                        <td class="number">1</td>
+                                        <td class="number">5</td>
                                         <td class="td-rank"><span class="rank"><span class=" rank-none "><span class="rank-txt">변동 없음</span></span></span></td>
                                         <td class="info">
-                                            <a href="#" class="cover" onclick=""><span class="mask"></span><img src="사진들어가용" alt="앨범 제목이 들어갑니다."></a>
-                                            <a href="#" class="title ellipsis" title="새창 열림" onclick="">DON'T TOUCH ME</a>
-                                            <a href="#" class="artist ellipsis" onclick="">환불원정대</a>
+                                            <a href="#" class="cover" onclick=""><span class="mask"></span><img src="/Genie_Project/img/song/5.jpg" alt="앨범 제목이 들어갑니다."></a>
+                                            <a href="#" class="title ellipsis" title="새창 열림" onclick="">마리아</a>
+                                            <a href="#" class="artist ellipsis" onclick="">화사</a>
                                         </td>
                                         <td class="btns"><a href="#" class="btn-basic btn-listen" title="새창 열림" onclick="">듣기</a></td>
                                         <td class="btns"><a href="#" class="btn-basic btn-add" title="새창 열림" onclick="">재생목록에 추가</a></td>
                                     </tr>
                                     <tr class="list">
-                                        <td class="number">1</td>
+                                        <td class="number">6</td>
                                         <td class="td-rank"><span class="rank"><span class=" rank-none "><span class="rank-txt">변동 없음</span></span></span></td>
                                         <td class="info">
-                                            <a href="#" class="cover" onclick=""><span class="mask"></span><img src="사진들어가용" alt="앨범 제목이 들어갑니다."></a>
-                                            <a href="#" class="title ellipsis" title="새창 열림" onclick="">DON'T TOUCH ME</a>
-                                            <a href="#" class="artist ellipsis" onclick="">환불원정대</a>
+                                            <a href="#" class="cover" onclick=""><span class="mask"></span><img src="/Genie_Project/img/song/6.jpg" alt="앨범 제목이 들어갑니다."></a>
+                                            <a href="#" class="title ellipsis" title="새창 열림" onclick="">신난다(Feat. 마마무)</a>
+                                            <a href="#" class="artist ellipsis" onclick="">비룡</a>
                                         </td>
                                         <td class="btns"><a href="#" class="btn-basic btn-listen" title="새창 열림" onclick="">듣기</a></td>
                                         <td class="btns"><a href="#" class="btn-basic btn-add" title="새창 열림" onclick="">재생목록에 추가</a></td>
                                     </tr>
                                     <tr class="list">
-                                        <td class="number">1</td>
+                                        <td class="number">7</td>
                                         <td class="td-rank"><span class="rank"><span class=" rank-none "><span class="rank-txt">변동 없음</span></span></span></td>
                                         <td class="info">
-                                            <a href="#" class="cover" onclick=""><span class="mask"></span><img src="사진들어가용" alt="앨범 제목이 들어갑니다."></a>
-                                            <a href="#" class="title ellipsis" title="새창 열림" onclick="">DON'T TOUCH ME</a>
-                                            <a href="#" class="artist ellipsis" onclick="">환불원정대</a>
+                                            <a href="#" class="cover" onclick=""><span class="mask"></span><img src="/Genie_Project/img/song/7.jpg" alt="앨범 제목이 들어갑니다."></a>
+                                            <a href="#" class="title ellipsis" title="새창 열림" onclick="">How You Like That</a>
+                                            <a href="#" class="artist ellipsis" onclick="">BLACKPINK</a>
                                         </td>
                                         <td class="btns"><a href="#" class="btn-basic btn-listen" title="새창 열림" onclick="">듣기</a></td>
                                         <td class="btns"><a href="#" class="btn-basic btn-add" title="새창 열림" onclick="">재생목록에 추가</a></td>
                                     </tr>
                                     <tr class="list">
-                                        <td class="number">1</td>
+                                        <td class="number">8</td>
                                         <td class="td-rank"><span class="rank"><span class=" rank-none "><span class="rank-txt">변동 없음</span></span></span></td>
                                         <td class="info">
-                                            <a href="#" class="cover" onclick=""><span class="mask"></span><img src="사진들어가용" alt="앨범 제목이 들어갑니다."></a>
-                                            <a href="#" class="title ellipsis" title="새창 열림" onclick="">DON'T TOUCH ME</a>
-                                            <a href="#" class="artist ellipsis" onclick="">환불원정대</a>
+                                            <a href="#" class="cover" onclick=""><span class="mask"></span><img src="/Genie_Project/img/song/8.jpg" alt="앨범 제목이 들어갑니다."></a>
+                                            <a href="#" class="title ellipsis" title="새창 열림" onclick="">홀로</a>
+                                            <a href="#" class="artist ellipsis" onclick="">이하이</a>
+                                        </td>
+                                        <td class="btns"><a href="#" class="btn-basic btn-listen" title="새창 열림" onclick="">듣기</a></td>
+                                        <td class="btns"><a href="#" class="btn-basic btn-add" title="새창 열림" onclick="">재생목록에 추가</a></td>
+                                    </tr>
+                                    <tr class="list">
+                                        <td class="number">9</td>
+                                        <td class="td-rank"><span class="rank"><span class=" rank-none "><span class="rank-txt">변동 없음</span></span></span></td>
+                                        <td class="info">
+                                            <a href="#" class="cover" onclick=""><span class="mask"></span><img src="/Genie_Project/img/song/9.jpg" alt="앨범 제목이 들어갑니다."></a>
+                                            <a href="#" class="title ellipsis" title="새창 열림" onclick="">When We Disco</a>
+                                            <a href="#" class="artist ellipsis" onclick="">박진영</a>
+                                        </td>
+                                        <td class="btns"><a href="#" class="btn-basic btn-listen" title="새창 열림" onclick="">듣기</a></td>
+                                        <td class="btns"><a href="#" class="btn-basic btn-add" title="새창 열림" onclick="">재생목록에 추가</a></td>
+                                    </tr>
+                                    <tr class="list">
+                                        <td class="number">10</td>
+                                        <td class="td-rank"><span class="rank"><span class=" rank-none "><span class="rank-txt">변동 없음</span></span></span></td>
+                                        <td class="info">
+                                            <a href="#" class="cover" onclick=""><span class="mask"></span><img src="/Genie_Project/img/song/10.jpg" alt="앨범 제목이 들어갑니다."></a>
+                                            <a href="#" class="title ellipsis" title="새창 열림" onclick="">아틀란티스 소녀</a>
+                                            <a href="#" class="artist ellipsis" onclick="">볼빨간사춘기</a>
                                         </td>
                                         <td class="btns"><a href="#" class="btn-basic btn-listen" title="새창 열림" onclick="">듣기</a></td>
                                         <td class="btns"><a href="#" class="btn-basic btn-add" title="새창 열림" onclick="">재생목록에 추가</a></td>

@@ -35,12 +35,12 @@ google.charts.setOnLoadCallback(function(){ drawChart(new_option2)});
                     }
                 }
             function play_one(num){
-            	var cookie=0;
+               var cookie=0;
                 window.open("/Genie_Project/G_servlet?command=Song_play&songid="+num+"&cookie="+cookie,"플레이리스트","width=1200, height=630");
             }
             function add_list(num){
-            	var cookie=1;
-            	window.open("/Genie_Project/G_servlet?command=Song_play&songid="+num+"&cookie="+cookie,"플레이리스트","width=1200, height=630");
+               var cookie=1;
+               window.open("/Genie_Project/G_servlet?command=Song_play&songid="+num+"&cookie="+cookie,"플레이리스트","width=1200, height=630");
             }
             function play_list(num){
                 window.open("/Genie_Project/G_song?command=Song_play","플레이리스트","width=1200, height=630");
@@ -58,16 +58,23 @@ google.charts.setOnLoadCallback(function(){ drawChart(new_option2)});
                 google.charts.load('current', {'packages':['corechart']});
         google.charts.setOnLoadCallback(drawChart);
   
-        	google.charts.load("current", {packages:['corechart']});
+           google.charts.load("current", {packages:['corechart']});
             google.charts.setOnLoadCallback(drawChart);
             function drawChart() {
+               
+               var chart_0=parseInt(document.getElementById("chart_0").value); // 다시 여기 바닷가
+               var chart_1=parseInt(document.getElementById("chart_1").value); // 눈누난나
+               var chart_2=parseInt(document.getElementById("chart_2").value); // 그 여름을 틀어줘
+               var chart_3=parseInt(document.getElementById("chart_3").value); // LINDA
+               var chart_4=parseInt(document.getElementById("chart_4").value); // 마리아
+               
               var data = google.visualization.arrayToDataTable([
                 ["Element", "Like", { role: "style" } ],
-                ["다시 여기 바닷가", 50, "red"],
-                ["눈누난나", 49, "blue"],
-                ["그 여름을 틀어줘", 48, "color: yellow"],
-                ["LINDA(Feat.윤미래)", 47, "color: pink"],
-                ["마리아",46, "color: green"]
+                ["다시 여기 바닷가", chart_0, "red"],
+                ["눈누난나", chart_1, "blue"],
+                ["그 여름을 틀어줘", chart_2, "color: yellow"],
+                ["LINDA(Feat.윤미래)", chart_3, "color: pink"],
+                ["마리아", chart_4, "color: green"]
               ]);
 
               var view = new google.visualization.DataView(data);
@@ -135,6 +142,13 @@ google.charts.setOnLoadCallback(function(){ drawChart(new_option2)});
                   </a>
                </div>
                <!-- date -->
+               <!-- 차트용 -->
+               <input type='hidden' id="chart_0" value='${songList[0].getG_like() }'> 
+               <input type='hidden' id="chart_1" value='${songList[1].getG_like() }'> 
+               <input type='hidden' id="chart_2" value='${songList[2].getG_like() }'> 
+               <input type='hidden' id="chart_3" value='${songList[3].getG_like() }'> 
+               <input type='hidden' id="chart_4" value='${songList[4].getG_like() }'> 
+               <!-- 차트용 -->
                <ul class="select-term">
                   <li class=""><a
                      href="/Genie_Project/G_servlet?command=Chart_top200_present"

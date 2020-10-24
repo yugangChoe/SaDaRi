@@ -129,7 +129,7 @@
                             <td>
                                 <a href="#" class="imge">
                                     <span class="mask"></span>
-                                    <img src="C:팀4/사진/지니차트/장르별차트/OST일/1.jpg" alt="밤하늘의 저 별처럼">
+                                    <img src="C:/팀4/사진/지니차트/장르별차트/OST/OST일/1.jpg" alt="밤하늘의 저 별처럼">
                                 </a>
                             </td>
                             <td class="info">
@@ -160,7 +160,7 @@
                             <td>
                                 <a href="#" class="imge">
                                     <span class="mask"></span>
-                                    <img src="C:팀4/사진/지니차트/장르별차트/OST일/2.jpg" alt="아로하">
+                                    <img src="C:/팀4/사진/지니차트/장르별차트/OST/OST일/2.jpg" alt="아로하">
                                 </a>
                             </td>
                             <td class="info">
@@ -191,7 +191,7 @@
                             <td>
                                 <a href="#" class="imge">
                                     <span class="mask"></span>
-                                    <img src="C:팀4/사진/지니차트/장르별차트/OST일/3.jpg" alt="내일은 고백할게">
+                                    <img src="C:/팀4/사진/지니차트/장르별차트/OST/OST일/3.jpg" alt="내일은 고백할게">
                                 </a>
                             </td>
                             <td class="info">
@@ -222,7 +222,7 @@
                             <td>
                                 <a href="#" class="imge">
                                     <span class="mask"></span>
-                                    <img src="C:팀4/사진/지니차트/장르별차트/OST일/4.jpg" alt="흔들리는 꽃들 속에서 네 샴퓨향이 느껴진거야">
+                                    <img src="C:/팀4/사진/지니차트/장르별차트/OST/OST일/4.jpg" alt="흔들리는 꽃들 속에서 네 샴퓨향이 느껴진거야">
                                 </a>
                             </td>
                             <td class="info">
@@ -253,7 +253,7 @@
                             <td>
                                 <a href="#" class="imge">
                                     <span class="mask"></span>
-                                    <img src="C:팀4/사진/지니차트/장르별차트/OST일/5.jpg" alt="모든날, 모든 순간">
+                                    <img src="C:/팀4/사진/지니차트/장르별차트/OST/OST일/5.jpg" alt="모든날, 모든 순간">
                                 </a>
                             </td>
                             <td class="info">
@@ -284,7 +284,7 @@
                             <td>
                                 <a href="#" class="imge">
                                     <span class="mask"></span>
-                                    <img src="C:팀4/사진/지니차트/장르별차트/OST일/6.jpg" alt="사랑하게 될 줄 알았어">
+                                    <img src="C:/팀4/사진/지니차트/장르별차트/OST/OST일/6.jpg" alt="사랑하게 될 줄 알았어">
                                 </a>
                             </td>
                             <td class="info">
@@ -315,7 +315,7 @@
                             <td>
                                 <a href="#" class="imge">
                                     <span class="mask"></span>
-                                    <img src="C:팀4/사진/지니차트/장르별차트/OST일/7.jpg" alt="나의 시간은">
+                                    <img src="C:/팀4/사진/지니차트/장르별차트/OST/OST일/7.jpg" alt="나의 시간은">
                                 </a>
                             </td>
                             <td class="info">
@@ -346,7 +346,7 @@
                             <td>
                                 <a href="#" class="imge">
                                     <span class="mask"></span>
-                                    <img src="C:팀4/사진/지니차트/장르별차트/OST일/8.jpg" alt="안녕">
+                                    <img src="C:/팀4/사진/지니차트/장르별차트/OST/OST일/8.jpg" alt="안녕">
                                 </a>
                             </td>
                             <td class="info">
@@ -377,7 +377,7 @@
                             <td>
                                 <a href="#" class="imge">
                                     <span class="mask"></span>
-                                    <img src="C:팀4/사진/지니차트/장르별차트/OST일/9.jpg" alt="시작">
+                                    <img src="C:/팀4/사진/지니차트/장르별차트/OST/OST일/9.jpg" alt="시작">
                                 </a>
                             </td>
                             <td class="info">
@@ -408,7 +408,7 @@
                             <td>
                                 <a href="#" class="imge">
                                     <span class="mask"></span>
-                                    <img src="C:팀4/사진/지니차트/장르별차트/OST일/10.jpg" alt="마음을 드려요">
+                                    <img src="C:/팀4/사진/지니차트/장르별차트/OST/OST일/10.jpg" alt="마음을 드려요">
                                 </a>
                             </td>
                             <td class="info">
@@ -439,7 +439,7 @@
                             <td>
                                 <a href="#" class="imge">
                                     <span class="mask"></span>
-                                    <img src="C:팀4/사진/지니차트/장르별차트/OST일/11.jpg" alt="좋은 사람 있으면 소개시켜줘">
+                                    <img src="C:/팀4/사진/지니차트/장르별차트/OST/OST일/11.jpg" alt="좋은 사람 있으면 소개시켜줘">
                                 </a>
                             </td>
                             <td class="info">
@@ -470,7 +470,7 @@
                             <td>
                                 <a href="#" class="imge">
                                     <span class="mask"></span>
-                                    <img src="C:팀4/사진/지니차트/장르별차트/OST일/12.jpg" alt="아직 너의 시간에 살아">
+                                    <img src="C:/팀4/사진/지니차트/장르별차트/OST/OST일/12.jpg" alt="아직 너의 시간에 살아">
                                 </a>
                             </td>
                             <td class="info">
@@ -501,7 +501,7 @@
                             <td>
                                 <a href="#" class="imge">
                                     <span class="mask"></span>
-                                    <img src="C:팀4/사진/지니차트/장르별차트/OST일/13.jpg" alt="그대라는 시">
+                                    <img src="C:/팀4/사진/지니차트/장르별차트/OST/OST일/13.jpg" alt="그대라는 시">
                                 </a>
                             </td>
                             <td class="info">
@@ -532,7 +532,7 @@
                             <td>
                                 <a href="#" class="imge">
                                     <span class="mask"></span>
-                                    <img src="C:팀4/사진/지니차트/장르별차트/OST일/14.jpg" alt="너에게 난, 나에게 넌">
+                                    <img src="C:/팀4/사진/지니차트/장르별차트/OST/OST일/14.jpg" alt="너에게 난, 나에게 넌">
                                 </a>
                             </td>
                             <td class="info">
@@ -563,7 +563,7 @@
                             <td>
                                 <a href="#" class="imge">
                                     <span class="mask"></span>
-                                    <img src="C:팀4/사진/지니차트/장르별차트/OST일/15.jpg" alt="화려하지 않은 고백">
+                                    <img src="C:/팀4/사진/지니차트/장르별차트/OST/OST일/15.jpg" alt="화려하지 않은 고백">
                                 </a>
                             </td>
                             <td class="info">
@@ -594,7 +594,7 @@
                             <td>
                                 <a href="#" class="imge">
                                     <span class="mask"></span>
-                                    <img src="C:팀4/사진/지니차트/장르별차트/OST일/16.jpg" alt="내 눈물 모아">
+                                    <img src="C:/팀4/사진/지니차트/장르별차트/OST/OST일/16.jpg" alt="내 눈물 모아">
                                 </a>
                             </td>
                             <td class="info">
@@ -625,7 +625,7 @@
                             <td>
                                 <a href="#" class="imge">
                                     <span class="mask"></span>
-                                    <img src="C:팀4/사진/지니차트/장르별차트/OST일/17.jpg" alt="기억해줘요 내모든 날과 그때를">
+                                    <img src="C:/팀4/사진/지니차트/장르별차트/OST/OST일/17.jpg" alt="기억해줘요 내모든 날과 그때를">
                                 </a>
                             </td>
                             <td class="info">
@@ -656,7 +656,7 @@
                             <td>
                                 <a href="#" class="imge">
                                     <span class="mask"></span>
-                                    <img src="C:팀4/사진/지니차트/장르별차트/OST일/18.jpg" alt="돌덩이">
+                                    <img src="C:/팀4/사진/지니차트/장르별차트/OST/OST일/18.jpg" alt="돌덩이">
                                 </a>
                             </td>
                             <td class="info">
@@ -687,7 +687,7 @@
                             <td>
                                 <a href="#" class="imge">
                                     <span class="mask"></span>
-                                    <img src="C:팀4/사진/지니차트/장르별차트/OST일/19.jpg" alt="그때 그 아인">
+                                    <img src="C:/팀4/사진/지니차트/장르별차트/OST/OST일/19.jpg" alt="그때 그 아인">
                                 </a>
                             </td>
                             <td class="info">
@@ -718,7 +718,7 @@
                             <td>
                                 <a href="#" class="imge">
                                     <span class="mask"></span>
-                                    <img src="C:팀4/사진/지니차트/장르별차트/OST일/20.jpg" alt="첫눈 처럼 너에게 가겠다">
+                                    <img src="C:/팀4/사진/지니차트/장르별차트/OST/OST일/20.jpg" alt="첫눈 처럼 너에게 가겠다">
                                 </a>
                             </td>
                             <td class="info">
@@ -749,7 +749,7 @@
                             <td>
                                 <a href="#" class="imge">
                                     <span class="mask"></span>
-                                    <img src="C:팀4/사진/지니차트/장르별차트/OST일/21.jpg" alt="우연일까">
+                                    <img src="C:/팀4/사진/지니차트/장르별차트/OST/OST일/21.jpg" alt="우연일까">
                                 </a>
                             </td>
                             <td class="info">
@@ -780,7 +780,7 @@
                             <td>
                                 <a href="#" class="imge">
                                     <span class="mask"></span>
-                                    <img src="C:팀4/사진/지니차트/장르별차트/OST일/22.jpg" alt="그대 고운 내사랑">
+                                    <img src="C:/팀4/사진/지니차트/장르별차트/OST/OST일/22.jpg" alt="그대 고운 내사랑">
                                 </a>
                             </td>
                             <td class="info">
@@ -811,7 +811,7 @@
                             <td>
                                 <a href="#" class="imge">
                                     <span class="mask"></span>
-                                    <img src="C:팀4/사진/지니차트/장르별차트/OST일/23.jpg" alt="다시 난 여기">
+                                    <img src="C:/팀4/사진/지니차트/장르별차트/OST/OST일/23.jpg" alt="다시 난 여기">
                                 </a>
                             </td>
                             <td class="info">
@@ -842,7 +842,7 @@
                             <td>
                                 <a href="#" class="imge">
                                     <span class="mask"></span>
-                                    <img src="C:팀4/사진/지니차트/장르별차트/OST일/24.jpg" alt="어떤 날엔">
+                                    <img src="C:/팀4/사진/지니차트/장르별차트/OST/OST일/24.jpg" alt="어떤 날엔">
                                 </a>
                             </td>
                             <td class="info">
@@ -873,7 +873,7 @@
                             <td>
                                 <a href="#" class="imge">
                                     <span class="mask"></span>
-                                    <img src="C:팀4/사진/지니차트/장르별차트/OST일/25.jpg" alt="너의 모든 순간">
+                                    <img src="C:/팀4/사진/지니차트/장르별차트/OST/OST일/25.jpg" alt="너의 모든 순간">
                                 </a>
                             </td>
                             <td class="info">
@@ -904,7 +904,7 @@
                             <td>
                                 <a href="#" class="imge">
                                     <span class="mask"></span>
-                                    <img src="C:팀4/사진/지니차트/장르별차트/OST일/26.jpg" alt="너를 사랑하고 있어">
+                                    <img src="C:/팀4/사진/지니차트/장르별차트/OST/OST일/26.jpg" alt="너를 사랑하고 있어">
                                 </a>
                             </td>
                             <td class="info">
@@ -935,7 +935,7 @@
                             <td>
                                 <a href="#" class="imge">
                                     <span class="mask"></span>
-                                    <img src="C:팀4/사진/지니차트/장르별차트/OST일/27.jpg" alt="나의 어깨에 기대어요">
+                                    <img src="C:/팀4/사진/지니차트/장르별차트/OST/OST일/27.jpg" alt="나의 어깨에 기대어요">
                                 </a>
                             </td>
                             <td class="info">
@@ -966,7 +966,7 @@
                             <td>
                                 <a href="#" class="imge">
                                     <span class="mask"></span>
-                                    <img src="C:팀4/사진/지니차트/장르별차트/OST일/28.jpg" alt="내 생에 아름다운">
+                                    <img src="C:/팀4/사진/지니차트/장르별차트/OST/OST일/28.jpg" alt="내 생에 아름다운">
                                 </a>
                             </td>
                             <td class="info">
@@ -997,7 +997,7 @@
                             <td>
                                 <a href="#" class="imge">
                                     <span class="mask"></span>
-                                    <img src="C:팀4/사진/지니차트/장르별차트/OST일/29.jpg" alt="그리워하면 그댈 만날까봐">
+                                    <img src="C:/팀4/사진/지니차트/장르별차트/OST/OST일/29.jpg" alt="그리워하면 그댈 만날까봐">
                                 </a>
                             </td>
                             <td class="info">
@@ -1028,7 +1028,7 @@
                             <td>
                                 <a href="#" class="imge">
                                     <span class="mask"></span>
-                                    <img src="C:팀4/사진/지니차트/장르별차트/OST일/30.jpg" alt="희재">
+                                    <img src="C:/팀4/사진/지니차트/장르별차트/OST/OST일/30.jpg" alt="희재">
                                 </a>
                             </td>
                             <td class="info">

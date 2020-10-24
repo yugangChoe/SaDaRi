@@ -119,7 +119,7 @@
 										class="select-check" title="Dynamite"></td>
 									<td class="number">1</td>
 									<td><a href="#" class="imge"> <span class="mask"></span>
-											<img src="C:팀4/사진/지니차트/장르별차트/가요일/1.jpg" alt="Dynamite">
+											<img src="C:/팀4/사진/지니차트/장르별차트/가요/가요일/1.jpg" alt="Dynamite">
 									</a></td>
 									<td class="info"><a href="#" class="sg songTitle">Dynamite</a>
 										<a href="#" class="sg songArtist">방탄소년단</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
@@ -142,7 +142,7 @@
 										class="select-check" title="오래된 노래"></td>
 									<td class="number">2</td>
 									<td><a href="#" class="imge"> <span class="mask"></span>
-											<img src="C:팀4/사진/지니차트/장르별차트/가요일/2.jpg" alt="오래된 노래">
+											<img src="C:/팀4/사진/지니차트/장르별차트/가요/가요일/2.jpg" alt="오래된 노래">
 									</a></td>
 									<td class="info"><a href="#" class="sg songTitle">오래된
 											노래</a> <a href="#" class="sg songArtist">Standing Egg</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
@@ -165,7 +165,7 @@
 										class="select-check" title="너의 밤은 어때"></td>
 									<td class="number">3</td>
 									<td><a href="#" class="imge"> <span class="mask"></span>
-											<img src="C:팀4/사진/지니차트/장르별차트/가요일/3.jpg" alt="너의 밤은 어때">
+											<img src="C:/팀4/사진/지니차트/장르별차트/가요/가요일/3.jpg" alt="너의 밤은 어때">
 									</a></td>
 									<td class="info"><a href="#" class="sg songTitle">너의
 											밤은 어때</a> <a href="#" class="sg songArtist">정은지</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
@@ -188,7 +188,7 @@
 										class="select-check" title="취기를 빌려"></td>
 									<td class="number">4</td>
 									<td><a href="#" class="imge"> <span class="mask"></span>
-											<img src="C:팀4/사진/지니차트/장르별차트/가요일/4.jpg" alt="취기를 빌려">
+											<img src="C:/팀4/사진/지니차트/장르별차트/가요/가요일/4.jpg" alt="취기를 빌려">
 									</a></td>
 									<td class="info"><a href="#" class="sg songTitle">취기를
 											빌려</a> <a href="#" class="sg songArtist">산들</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
@@ -211,7 +211,7 @@
 										class="select-check" title="내 마음이 움찔했던 순간"></td>
 									<td class="number">5</td>
 									<td><a href="#" class="imge"> <span class="mask"></span>
-											<img src="C:팀4/사진/지니차트/장르별차트/가요일/5.jpg" alt="내 마음이 움찔했던 순간">
+											<img src="C:/팀4/사진/지니차트/장르별차트/가요/가요일/5.jpg" alt="내 마음이 움찔했던 순간">
 									</a></td>
 									<td class="info"><a href="#" class="sg songTitle">내
 											마음이 움찔했던 순간</a> <a href="#" class="sg songArtist">규현</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
@@ -234,7 +234,7 @@
 										class="select-check" title="When We Disco"></td>
 									<td class="number">6</td>
 									<td><a href="#" class="imge"> <span class="mask"></span>
-											<img src="C:팀4/사진/지니차트/장르별차트/가요일/6.jpg" alt="When We Disco">
+											<img src="C:/팀4/사진/지니차트/장르별차트/가요/가요일/6.jpg" alt="When We Disco">
 									</a></td>
 									<td class="info"><a href="#" class="sg songTitle">When
 											We Disco</a> <a href="#" class="sg songArtist">박진영</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
@@ -257,7 +257,7 @@
 										class="select-check" title="눈누난나"></td>
 									<td class="number">7</td>
 									<td><a href="#" class="imge"> <span class="mask"></span>
-											<img src="C:팀4/사진/지니차트/장르별차트/가요일/7.jpg" alt="눈누난나">
+											<img src="C:/팀4/사진/지니차트/장르별차트/가요/가요일/7.jpg" alt="눈누난나">
 									</a></td>
 									<td class="info"><a href="#" class="sg songTitle">눈누난나</a>
 										<a href="#" class="sg songArtist">제시</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
@@ -280,7 +280,7 @@
 										class="select-check" title="Tight"></td>
 									<td class="number">8</td>
 									<td><a href="#" class="imge"> <span class="mask"></span>
-											<img src="C:팀4/사진/지니차트/장르별차트/가요일/8.jpg" alt="Tight">
+											<img src="C:/팀4/사진/지니차트/장르별차트/가요/가요일/8.jpg" alt="Tight">
 									</a></td>
 									<td class="info"><a href="#" class="sg songTitle">Tight</a>
 										<a href="#" class="sg songArtist">10CM</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
@@ -303,7 +303,7 @@
 										class="select-check" title="마리아(Maria)"></td>
 									<td class="number">9</td>
 									<td><a href="#" class="imge"> <span class="mask"></span>
-											<img src="C:팀4/사진/지니차트/장르별차트/가요일/9.jpg" alt="마리아(Maria)">
+											<img src="C:/팀4/사진/지니차트/장르별차트/가요/가요일/9.jpg" alt="마리아(Maria)">
 									</a></td>
 									<td class="info"><a href="#" class="sg songTitle">마리아(Maria)</a>
 										<a href="#" class="sg songArtist">화사</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
@@ -326,7 +326,7 @@
 										class="select-check" title="에잇 (Prod. * SUGA of BTS)"></td>
 									<td class="number">10</td>
 									<td><a href="#" class="imge"> <span class="mask"></span>
-											<img src="C:팀4/사진/지니차트/장르별차트/가요일/10.jpg"
+											<img src="C:/팀4/사진/지니차트/장르별차트/가요/가요일/10.jpg"
 											alt="에잇 (Prod. * SUGA of BTS)">
 									</a></td>
 									<td class="info"><a href="#" class="sg songTitle">에잇
@@ -351,7 +351,7 @@
 										class="select-check" title="다시 여기 바닷가"></td>
 									<td class="number">11</td>
 									<td><a href="#" class="imge"> <span class="mask"></span>
-											<img src="C:팀4/사진/지니차트/장르별차트/가요일/11.jpg" alt="다시 여기 바닷가">
+											<img src="C:/팀4/사진/지니차트/장르별차트/가요/가요일/11.jpg" alt="다시 여기 바닷가">
 									</a></td>
 									<td class="info"><a href="#" class="sg songTitle">다시
 											여기 바닷가</a> <a href="#" class="sg songArtist">싹쓰리</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
@@ -374,7 +374,7 @@
 										class="select-check" title="축하해"></td>
 									<td class="number">12</td>
 									<td><a href="#" class="imge"> <span class="mask"></span>
-											<img src="C:팀4/사진/지니차트/장르별차트/가요일/12.jpg" alt="축하해">
+											<img src="C:/팀4/사진/지니차트/장르별차트/가요/가요일/12.jpg" alt="축하해">
 									</a></td>
 									<td class="info"><a href="#" class="sg songTitle">축하해</a>
 										<a href="#" class="sg songArtist">오반</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
@@ -397,7 +397,7 @@
 										class="select-check" title="Dolphin"></td>
 									<td class="number">13</td>
 									<td><a href="#" class="imge"> <span class="mask"></span>
-											<img src="C:팀4/사진/지니차트/장르별차트/가요일/13.jpg" alt="Dolphin">
+											<img src="C:/팀4/사진/지니차트/장르별차트/가요/가요일/13.jpg" alt="Dolphin">
 									</a></td>
 									<td class="info"><a href="#" class="sg songTitle">Dolphin/a>
 											<a href="#" class="sg songArtist">오마이걸</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
@@ -420,7 +420,7 @@
 										class="select-check" title="How You Like That"></td>
 									<td class="number">14</td>
 									<td><a href="#" class="imge"> <span class="mask"></span>
-											<img src="C:팀4/사진/지니차트/장르별차트/가요일/14.jpg"
+											<img src="C:/팀4/사진/지니차트/장르별차트/가요/가요일/14.jpg"
 											alt="How You Like That">
 									</a></td>
 									<td class="info"><a href="#" class="sg songTitle">How
@@ -445,7 +445,7 @@
 										class="select-check" title="Not Shy"></td>
 									<td class="number">15</td>
 									<td><a href="#" class="imge"> <span class="mask"></span>
-											<img src="C:팀4/사진/지니차트/장르별차트/가요일/15.jpg" alt="Not Shy">
+											<img src="C:/팀4/사진/지니차트/장르별차트/가요/가요일/15.jpg" alt="Not Shy">
 									</a></td>
 									<td class="info"><a href="#" class="sg songTitle">Not
 											Shy</a> <a href="#" class="sg songArtist">ITZY(있지)</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
@@ -468,7 +468,7 @@
 										class="select-check" title="이제 나만 믿어요"></td>
 									<td class="number">16</td>
 									<td><a href="#" class="imge"> <span class="mask"></span>
-											<img src="C:팀4/사진/지니차트/장르별차트/가요일/16.jpg" alt="이제 나만 믿어요">
+											<img src="C:/팀4/사진/지니차트/장르별차트/가요/가요일/16.jpg" alt="이제 나만 믿어요">
 									</a></td>
 									<td class="info"><a href="#" class="sg songTitle">이제
 											나만 믿어요</a> <a href="#" class="sg songArtist">임영웅</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
@@ -491,7 +491,7 @@
 										class="select-check" title="Ice Cream"></td>
 									<td class="number">17</td>
 									<td><a href="#" class="imge"> <span class="mask"></span>
-											<img src="C:팀4/사진/지니차트/장르별차트/가요일/17.jpg" alt="Ice Cream">
+											<img src="C:/팀4/사진/지니차트/장르별차트/가요/가요일/17.jpg" alt="Ice Cream">
 									</a></td>
 									<td class="info"><a href="#" class="sg songTitle">Ice
 											Cream</a> <a href="#" class="sg songArtist">BLACKPINK</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
@@ -514,7 +514,7 @@
 										class="select-check" title="Blueming"></td>
 									<td class="number">18</td>
 									<td><a href="#" class="imge"> <span class="mask"></span>
-											<img src="C:팀4/사진/지니차트/장르별차트/가요일/18.jpg" alt="Blueming">
+											<img src="C:/팀4/사진/지니차트/장르별차트/가요/가요일/18.jpg" alt="Blueming">
 									</a></td>
 									<td class="info"><a href="#" class="sg songTitle">Blueming</a>
 										<a href="#" class="sg songArtist">아이유(IU)</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
@@ -537,7 +537,7 @@
 										class="select-check" title="홀로"></td>
 									<td class="number">19</td>
 									<td><a href="#" class="imge"> <span class="mask"></span>
-											<img src="C:팀4/사진/지니차트/장르별차트/가요일/19.jpg" alt="홀로">
+											<img src="C:/팀4/사진/지니차트/장르별차트/가요/가요일/19.jpg" alt="홀로">
 									</a></td>
 									<td class="info"><a href="#" class="sg songTitle">홀로</a> <a
 										href="#" class="sg songArtist">이하이</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
@@ -560,7 +560,7 @@
 										class="select-check" title="Downtown Baby"></td>
 									<td class="number">20</td>
 									<td><a href="#" class="imge"> <span class="mask"></span>
-											<img src="C:팀4/사진/지니차트/장르별차트/가요일/20.jpg" alt="Downtown Baby">
+											<img src="C:/팀4/사진/지니차트/장르별차트/가요/가요일/20.jpg" alt="Downtown Baby">
 									</a></td>
 									<td class="info"><a href="#" class="sg songTitle" Downtown
 										Baby></a> <a href="#" class="sg songArtist">블루</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
@@ -583,7 +583,7 @@
 										class="select-check" title="덤디덤디"></td>
 									<td class="number">21</td>
 									<td><a href="#" class="imge"> <span class="mask"></span>
-											<img src="C:팀4/사진/지니차트/장르별차트/가요일/21.jpg" alt="덤디덤디">
+											<img src="C:/팀4/사진/지니차트/장르별차트/가요/가요일/21.jpg" alt="덤디덤디">
 									</a></td>
 									<td class="info"><a href="#" class="sg songTitle">덤디덤디</a>
 										<a href="#" class="sg songArtist">(여자)아이들</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
@@ -606,7 +606,7 @@
 										class="select-check" title="오래된 노래"></td>
 									<td class="number">22</td>
 									<td><a href="#" class="imge"> <span class="mask"></span>
-											<img src="C:팀4/사진/지니차트/장르별차트/가요일/22.jpg" alt="오래된 노래">
+											<img src="C:/팀4/사진/지니차트/장르별차트/가요/가요일/22.jpg" alt="오래된 노래">
 									</a></td>
 									<td class="info"><a href="#" class="sg songTitle">오래된
 											노래</a> <a href="#" class="sg songArtist">임영웅</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
@@ -629,7 +629,7 @@
 										class="select-check" title="작은 것들을 위한 시"></td>
 									<td class="number">23</td>
 									<td><a href="#" class="imge"> <span class="mask"></span>
-											<img src="C:팀4/사진/지니차트/장르별차트/가요일/23.jpg" alt="작은 것들을 위한 시">
+											<img src="C:/팀4/사진/지니차트/장르별차트/가요/가요일/23.jpg" alt="작은 것들을 위한 시">
 									</a></td>
 									<td class="info"><a href="#" class="sg songTitle">작은
 											것들을 위한 시</a> <a href="#" class="sg songArtist">방탄소년단</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
@@ -652,7 +652,7 @@
 										class="select-check" title="살짝 설렛어"></td>
 									<td class="number">24</td>
 									<td><a href="#" class="imge"> <span class="mask"></span>
-											<img src="C:팀4/사진/지니차트/장르별차트/가요일/24.jpg" alt="살짝 설렛어">
+											<img src="C:/팀4/사진/지니차트/장르별차트/가요/가요일/24.jpg" alt="살짝 설렛어">
 									</a></td>
 									<td class="info"><a href="#" class="sg songTitle">살짝
 											설렛어</a> <a href="#" class="sg songArtist">오마이걸</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
@@ -675,7 +675,7 @@
 										class="select-check" title="METEOR"></td>
 									<td class="number">25</td>
 									<td><a href="#" class="imge"> <span class="mask"></span>
-											<img src="C:팀4/사진/지니차트/장르별차트/가요일/25.jpg" alt="METEOR">
+											<img src="C:/팀4/사진/지니차트/장르별차트/가요/가요일/25.jpg" alt="METEOR">
 									</a></td>
 									<td class="info"><a href="#" class="sg songTitle">METEOR</a>
 										<a href="#" class="sg songArtist">창모</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
@@ -698,7 +698,7 @@
 										class="select-check" title="어떻게 지내"></td>
 									<td class="number">26</td>
 									<td><a href="#" class="imge"> <span class="mask"></span>
-											<img src="C:팀4/사진/지니차트/장르별차트/가요일/26.jpg" alt="어떻게 지내">
+											<img src="C:/팀4/사진/지니차트/장르별차트/가요/가요일/26.jpg" alt="어떻게 지내">
 									</a></td>
 									<td class="info"><a href="#" class="sg songTitle">어떻게
 											지내</a> <a href="#" class="sg songArtist">오반</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
@@ -721,7 +721,7 @@
 										class="select-check" title="아틀란티스 소녀"></td>
 									<td class="number">27</td>
 									<td><a href="#" class="imge"> <span class="mask"></span>
-											<img src="C:팀4/사진/지니차트/장르별차트/가요일/27.jpg" alt="아틀란티스 소녀">
+											<img src="C:/팀4/사진/지니차트/장르별차트/가요/가요일/27.jpg" alt="아틀란티스 소녀">
 									</a></td>
 									<td class="info"><a href="#" class="sg songTitle">아틀란티스
 											소녀</a> <a href="#" class="sg songArtist">볼빨간사춘기</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
@@ -744,7 +744,7 @@
 										class="select-check" title="Summer Hate"></td>
 									<td class="number">28</td>
 									<td><a href="#" class="imge"> <span class="mask"></span>
-											<img src="C:팀4/사진/지니차트/장르별차트/가요일/28.jpg" alt="Summer Hate">
+											<img src="C:/팀4/사진/지니차트/장르별차트/가요/가요일/28.jpg" alt="Summer Hate">
 									</a></td>
 									<td class="info"><a href="#" class="sg songTitle">Summer
 											Hate</a> <a href="#" class="sg songArtist">지코</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
@@ -767,7 +767,7 @@
 										class="select-check" title="오늘도 빛나는 너에게"></td>
 									<td class="number">29</td>
 									<td><a href="#" class="imge"> <span class="mask"></span>
-											<img src="C:팀4/사진/지니차트/장르별차트/가요일/29.jpg" alt="오늘도 빛나는 너에게">
+											<img src="C:/팀4/사진/지니차트/장르별차트/가요/가요일/29.jpg" alt="오늘도 빛나는 너에게">
 									</a></td>
 									<td class="info"><a href="#" class="sg songTitle">오늘도
 											빛나는 너에게</a> <a href="#" class="sg songArtist">마크툽</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
@@ -790,7 +790,7 @@
 										class="select-check" title="숲의 아이"></td>
 									<td class="number">30</td>
 									<td><a href="#" class="imge"> <span class="mask"></span>
-											<img src="C:팀4/사진/지니차트/장르별차트/가요일/30.jpg" alt="숲의 아이">
+											<img src="C:/팀4/사진/지니차트/장르별차트/가요/가요일/30.jpg" alt="숲의 아이">
 									</a></td>
 									<td class="info"><a href="#" class="sg songTitle">숲의
 											아이</a> <a href="#" class="sg songArtist">유아</a> <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->

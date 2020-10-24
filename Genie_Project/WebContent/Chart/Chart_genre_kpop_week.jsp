@@ -128,7 +128,7 @@
                                 <td>
                                     <a href="#" class="imge">
                                         <span class="mask"></span>
-                                        <img src="C:팀4/사진/지니차트/장르별차트/가요주/1.jpg" alt="Dynamite">
+                                        <img src="C:/팀4/사진/지니차트/장르별차트/가요/가요주/1.jpg" alt="Dynamite">
                                     </a>
                                 </td>
                                 <td class="info">
@@ -159,7 +159,7 @@
                                 <td>
                                     <a href="#" class="imge">
                                         <span class="mask"></span>
-                                        <img src="C:팀4/사진/지니차트/장르별차트/가요주/2.jpg" alt="오래된 노래">
+                                        <img src="C:/팀4/사진/지니차트/장르별차트/가요/가요주/2.jpg" alt="오래된 노래">
                                     </a>
                                 </td>
                                 <td class="info">
@@ -190,7 +190,7 @@
                                 <td>
                                     <a href="#" class="imge">
                                         <span class="mask"></span>
-                                        <img src="C:팀4/사진/지니차트/장르별차트/가요주/3.jpg" alt="Tight">
+                                        <img src="C:/팀4/사진/지니차트/장르별차트/가요/가요주/3.jpg" alt="Tight">
                                     </a>
                                 </td>
                                 <td class="info">
@@ -221,7 +221,7 @@
                                 <td>
                                     <a href="#" class="imge">
                                         <span class="mask"></span>
-                                        <img src="C:팀4/사진/지니차트/장르별차트/가요주/4.jpg" alt="내 마음이 움찔했던 순간">
+                                        <img src="C:/팀4/사진/지니차트/장르별차트/가요/가요주/4.jpg" alt="내 마음이 움찔했던 순간">
                                     </a>
                                 </td>
                                 <td class="info">
@@ -253,7 +253,7 @@
                                 <td>
                                     <a href="#" class="imge">
                                         <span class="mask"></span>
-                                        <img src="C:팀4/사진/지니차트/장르별차트/가요주/5.jpg" alt="취기를 빌려">
+                                        <img src="C:/팀4/사진/지니차트/장르별차트/가요/가요주/5.jpg" alt="취기를 빌려">
                                     </a>
                                 </td>
                                 <td class="info">
@@ -284,7 +284,7 @@
                                 <td>
                                     <a href="#" class="imge">
                                         <span class="mask"></span>
-                                        <img src="C:팀4/사진/지니차트/장르별차트/가요주/6.jpg" alt="When We Disco">
+                                        <img src="C:/팀4/사진/지니차트/장르별차트/가요/가요주/6.jpg" alt="When We Disco">
                                     </a>
                                 </td>
                                 <td class="info">
@@ -315,7 +315,7 @@
                                 <td>
                                     <a href="#" class="imge">
                                         <span class="mask"></span>
-                                        <img src="C:팀4/사진/지니차트/장르별차트/가요주/7.jpg" alt="눈누난나">
+                                        <img src="C:/팀4/사진/지니차트/장르별차트/가요/가요주/7.jpg" alt="눈누난나">
                                     </a>
                                 </td>
                                 <td class="info">
@@ -346,7 +346,7 @@
                                 <td>
                                     <a href="#" class="imge">
                                         <span class="mask"></span>
-                                        <img src="C:팀4/사진/지니차트/장르별차트/가요주/8.jpg" alt="마리아(Maria)">
+                                        <img src="C:/팀4/사진/지니차트/장르별차트/가요/가요주/8.jpg" alt="마리아(Maria)">
                                     </a>
                                 </td>
                                 <td class="info">
@@ -377,7 +377,7 @@
                                 <td>
                                     <a href="#" class="imge">
                                         <span class="mask"></span>
-                                        <img src="C:팀4/사진/지니차트/장르별차트/가요주/9.jpg" alt="축하해">
+                                        <img src="C:/팀4/사진/지니차트/장르별차트/가요/가요주/9.jpg" alt="축하해">
                                     </a>
                                 </td>
                                 <td class="info">
@@ -408,7 +408,7 @@
                                 <td>
                                     <a href="#" class="imge">
                                         <span class="mask"></span>
-                                        <img src="C:팀4/사진/지니차트/장르별차트/가요주/10.jpg" alt="다시 여기 바닷가">
+                                        <img src="C:/팀4/사진/지니차트/장르별차트/가요/가요주/10.jpg" alt="다시 여기 바닷가">
                                     </a>
                                 </td>
                                 <td class="info">
@@ -439,7 +439,7 @@
                                 <td>
                                     <a href="#" class="imge">
                                         <span class="mask"></span>
-                                        <img src="C:팀4/사진/지니차트/장르별차트/가요주/11.jpg" alt="에잇 (Prod. * SUGA of BTS)">
+                                        <img src="C:/팀4/사진/지니차트/장르별차트/가요/가요주/11.jpg" alt="에잇 (Prod. * SUGA of BTS)">
                                     </a>
                                 </td>
                                 <td class="info">
@@ -470,7 +470,7 @@
                                 <td>
                                     <a href="#" class="imge">
                                         <span class="mask"></span>
-                                        <img src="C:팀4/사진/지니차트/장르별차트/가요주/12.jpg" alt="How You Like That">
+                                        <img src="C:/팀4/사진/지니차트/장르별차트/가요/가요주/12.jpg" alt="How You Like That">
                                     </a>
                                 </td>
                                 <td class="info">
@@ -501,7 +501,7 @@
                                 <td>
                                     <a href="#" class="imge">
                                         <span class="mask"></span>
-                                        <img src="C:팀4/사진/지니차트/장르별차트/가요주/13.jpg" alt="Not Shy">
+                                        <img src="C:/팀4/사진/지니차트/장르별차트/가요/가요주/13.jpg" alt="Not Shy">
                                     </a>
                                 </td>
                                 <td class="info">
@@ -532,7 +532,7 @@
                                 <td>
                                     <a href="#" class="imge">
                                         <span class="mask"></span>
-                                        <img src="C:팀4/사진/지니차트/장르별차트/가요주/14.jpg" alt="Ice Cream">
+                                        <img src="C:/팀4/사진/지니차트/장르별차트/가요/가요주/14.jpg" alt="Ice Cream">
                                     </a>
                                 </td>
                                 <td class="info">
@@ -563,7 +563,7 @@
                                 <td>
                                     <a href="#" class="imge">
                                         <span class="mask"></span>
-                                        <img src="C:팀4/사진/지니차트/장르별차트/가요주/15.jpg" alt="Dolphin">
+                                        <img src="C:/팀4/사진/지니차트/장르별차트/가요/가요주/15.jpg" alt="Dolphin">
                                     </a>
                                 </td>
                                 <td class="info">
@@ -594,7 +594,7 @@
                                 <td>
                                     <a href="#" class="imge">
                                         <span class="mask"></span>
-                                        <img src="C:팀4/사진/지니차트/장르별차트/가요주/16.jpg" alt="Blueming">
+                                        <img src="C:/팀4/사진/지니차트/장르별차트/가요/가요주/16.jpg" alt="Blueming">
                                     </a>
                                 </td>
                                 <td class="info">
@@ -625,7 +625,7 @@
                                 <td>
                                     <a href="#" class="imge">
                                         <span class="mask"></span>
-                                        <img src="C:팀4/사진/지니차트/장르별차트/가요주/17.jpg" alt="Downtown Baby">
+                                        <img src="C:/팀4/사진/지니차트/장르별차트/가요/가요주/17.jpg" alt="Downtown Baby">
                                     </a>
                                 </td>
                                 <td class="info">
@@ -656,7 +656,7 @@
                                 <td>
                                     <a href="#" class="imge">
                                         <span class="mask"></span>
-                                        <img src="C:팀4/사진/지니차트/장르별차트/가요주/18.jpg" alt="이제 나만 믿어요">
+                                        <img src="C:/팀4/사진/지니차트/장르별차트/가요/가요주/18.jpg" alt="이제 나만 믿어요">
                                     </a>
                                 </td>
                                 <td class="info">
@@ -687,7 +687,7 @@
                                 <td>
                                     <a href="#" class="imge">
                                         <span class="mask"></span>
-                                        <img src="C:팀4/사진/지니차트/장르별차트/가요주/19.jpg" alt="홀로">
+                                        <img src="C:/팀4/사진/지니차트/장르별차트/가요/가요주/19.jpg" alt="홀로">
                                     </a>
                                 </td>
                                 <td class="info">
@@ -718,7 +718,7 @@
                                 <td>
                                     <a href="#" class="imge">
                                         <span class="mask"></span>
-                                        <img src="C:팀4/사진/지니차트/장르별차트/가요주/20.jpg" alt="덤디덤디">
+                                        <img src="C:/팀4/사진/지니차트/장르별차트/가요/가요주/20.jpg" alt="덤디덤디">
                                     </a>
                                 </td>
                                 <td class="info">
@@ -749,7 +749,7 @@
                                 <td>
                                     <a href="#" class="imge">
                                         <span class="mask"></span>
-                                        <img src="C:팀4/사진/지니차트/장르별차트/가요주/21.jpg" alt="METEOR">
+                                        <img src="C:/팀4/사진/지니차트/장르별차트/가요/가요주/21.jpg" alt="METEOR">
                                     </a>
                                 </td>
                                 <td class="info">
@@ -780,7 +780,7 @@
                                 <td>
                                     <a href="#" class="imge">
                                         <span class="mask"></span>
-                                        <img src="C:팀4/사진/지니차트/장르별차트/가요주/22.jpg" alt="살짝 설렜어">
+                                        <img src="C:/팀4/사진/지니차트/장르별차트/가요/가요주/22.jpg" alt="살짝 설렜어">
                                     </a>
                                 </td>
                                 <td class="info">
@@ -811,7 +811,7 @@
                                 <td>
                                     <a href="#" class="imge">
                                         <span class="mask"></span>
-                                        <img src="C:팀4/사진/지니차트/장르별차트/가요주/23.jpg" alt="작은 것들을 위한 시">
+                                        <img src="C:/팀4/사진/지니차트/장르별차트/가요/가요주/23.jpg" alt="작은 것들을 위한 시">
                                     </a>
                                 </td>
                                 <td class="info">
@@ -842,7 +842,7 @@
                                 <td>
                                     <a href="#" class="imge">
                                         <span class="mask"></span>
-                                        <img src="C:팀4/사진/지니차트/장르별차트/가요주/24.jpg" alt="어떻게 지내">
+                                        <img src="C:/팀4/사진/지니차트/장르별차트/가요/가요주/24.jpg" alt="어떻게 지내">
                                     </a>
                                 </td>
                                 <td class="info">
@@ -873,7 +873,7 @@
                                 <td>
                                     <a href="#" class="imge">
                                         <span class="mask"></span>
-                                        <img src="C:팀4/사진/지니차트/장르별차트/가요주/25.jpg" alt="오래된 노래">
+                                        <img src="C:/팀4/사진/지니차트/장르별차트/가요/가요주/25.jpg" alt="오래된 노래">
                                     </a>
                                 </td>
                                 <td class="info">
@@ -904,7 +904,7 @@
                                 <td>
                                     <a href="#" class="imge">
                                         <span class="mask"></span>
-                                        <img src="C:팀4/사진/지니차트/장르별차트/가요주/26.jpg" alt="아틀란티스 소녀">
+                                        <img src="C:/팀4/사진/지니차트/장르별차트/가요/가요주/26.jpg" alt="아틀란티스 소녀">
                                     </a>
                                 </td>
                                 <td class="info">
@@ -935,7 +935,7 @@
                                 <td>
                                     <a href="#" class="imge">
                                         <span class="mask"></span>
-                                        <img src="C:팀4/사진/지니차트/장르별차트/가요주/27.jpg" alt="Summer Hate">
+                                        <img src="C:/팀4/사진/지니차트/장르별차트/가요/가요주/27.jpg" alt="Summer Hate">
                                     </a>
                                 </td>
                                 <td class="info">
@@ -966,7 +966,7 @@
                                 <td>
                                     <a href="#" class="imge">
                                         <span class="mask"></span>
-                                        <img src="C:팀4/사진/지니차트/장르별차트/가요주/28.jpg" alt="그 여름을 틀어줘">
+                                        <img src="C:/팀4/사진/지니차트/장르별차트/가요/가요주/28.jpg" alt="그 여름을 틀어줘">
                                     </a>
                                 </td>
                                 <td class="info">
@@ -997,7 +997,7 @@
                                 <td>
                                     <a href="#" class="imge">
                                         <span class="mask"></span>
-                                        <img src="C:팀4/사진/지니차트/장르별차트/가요주/29.jpg" alt="어떻게 이별까지 사랑하겠어, 널 사랑하는거지">
+                                        <img src="C:/팀4/사진/지니차트/장르별차트/가요/가요주/29.jpg" alt="어떻게 이별까지 사랑하겠어, 널 사랑하는거지">
                                     </a>
                                 </td>
                                 <td class="info">
@@ -1028,7 +1028,7 @@
                                 <td>
                                     <a href="#" class="imge">
                                         <span class="mask"></span>
-                                        <img src="C:팀4/사진/지니차트/장르별차트/가요주/30.jpg" alt="숲의 아이">
+                                        <img src="C:/팀4/사진/지니차트/장르별차트/가요/가요주/30.jpg" alt="숲의 아이">
                                     </a>
                                 </td>
                                 <td class="info">

@@ -749,7 +749,7 @@
                             <div class="toolbar">
                                 <a href="#" class="btn btn-listen" title="재생">듣기</a>
                                 <a href="#" class="btn btn-add" title="추가">전체추가</a>
-                                <a href="#여기에 탑200 페이지넣기" class="btn-right">TOP200 바로가기 &gt;</a>
+                                <a href="/Genie_Project/G_servlet?command=Chart_top200_present" class="btn-right">TOP200 바로가기 &gt;</a>
                             </div>
                         </div>
                         <!-- music-list-wrap -->

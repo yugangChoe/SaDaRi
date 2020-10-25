@@ -51,22 +51,22 @@
             <ul>
                 <li>
                     <a href="/Genie_Project/G_servlet?command=Genre_kpop_all">
-                        <img src="C:/팀4/사진/이미지/genre_1_2020.png" alt="가요">
+                        <img src="/Genie_Project/img/g/genre_1_2020.png" alt="가요">
                     </a>
                 </li>
                 <li>
                     <a href="/Genie_Project/G_servlet?command=Genre_pop_all">
-                        <img src="C:/팀4/사진/이미지/genre_2_2020.png" alt="POP">
+                        <img src="/Genie_Project/img/g/genre_2_2020.png" alt="POP">
                     </a>
                 </li>
                 <li>
                     <a href="/Genie_Project/G_servlet?command=Genre_OST_all">
-                        <img src="C:/팀4/사진/이미지/genre_3_2020.png" alt="OST">
+                        <img src="/Genie_Project/img/g/genre_3_2020.png" alt="OST">
                     </a>
                 </li>
                 <li>
                     <a href="/Genie_Project/G_servlet?command=Genre_trot">
-                        <img src="C:/팀4/사진/이미지/genre_11.png" alt="트롯">
+                        <img src="/Genie_Project/img/g/genre_11.png" alt="트롯">
                     </a>
                 </li>
             </ul>
@@ -169,6 +169,7 @@
                                         <a href="#" class="sg songArtist">오빗 외</a>
                                         <!-- <a href="#">가수옆작은화살표</a> 이건 제목옆 토글 -->
                                         <!-- <a href="#">화살표옆 앨범타이틀</a> -->
+                                        
                                     </td>
                                     <td class="btns">
                                         <a href="#" title="재생" class="btn-img btn-listen" onclick="play_one(1)">듣기</a>

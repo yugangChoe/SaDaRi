@@ -912,7 +912,7 @@
                             <td>
                                 <a href="#" class="imge">
                                     <span class="mask"></span>
-                                    <img src="c:\사진\최신음악\곡\HOT\27.jpg" width="50" height="50" alt="노래제목">
+                                    <img src="C:\팀4\사진\최신음악\최신곡\전체\27.jpg" width="50" height="50" alt="노래제목">
                                 </a>
                             </td>
                             <td class="info">

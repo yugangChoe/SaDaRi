@@ -6,6 +6,21 @@
 <meta charset="UTF-8">
 <link href="/Genie_Project/css/Genie.css" rel="stylesheet" type="text/css">
 <title>Newest_album_hot</title>
+<style>
+.hide {
+	font: 0/0 a;
+	overflow: hidden;
+	border: 0 none;
+	width: 0;
+	height: 0;
+	margin: 0;
+	padding: 0;
+}
+td img {
+width: 50px;
+height: 50px; 
+}
+</style>
         <script>
             var login_st=0;
                 function login(){
@@ -32,6 +47,7 @@
                 window.open("/Genie_Project/G_servlet?command=Login","로그인","width=470, height=430")
             }
         </script>
+        
 </head>
 <body>
 <div class="wrap-main">

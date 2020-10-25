@@ -597,7 +597,7 @@
                             <td>
                                 <a href="#" class="cover-mv" title="Dynamite">
                                     <span class="mask"></span>
-                                    <img src="C:/Users/최유강/Desktop/팀4/사진/지니차트/뮤직비디오차트/일간2020924/1.jpg" alt="Dynamite">
+                                    <img src="C:/팀4/사진/지니차트/뮤직비디오차트/일간2020924/1.jpg" alt="Dynamite">
                                     <span class="duration">03:47</span>
                                 </a>
                             </td>
@@ -697,7 +697,7 @@
                                 </a>
                             </td>
                             <td class="info">
-                                <a href="#" class="title">숲의 아이/a>
+                                <a href="#" class="title">숲의 아이</a>
                                 <a href="#" class="artist">유아</a>
                             </td>
                             <td class="btns"><a href="#" class="btn-img btn-view" title="보기">보기</a></td>

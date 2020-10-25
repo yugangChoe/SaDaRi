@@ -697,7 +697,7 @@
                                 </a>
                             </td>
                             <td class="info">
-                                <a href="#" class="title">WANNA BE MYSELF/a>
+                                <a href="#" class="title">WANNA BE MYSELF</a>
                                 <a href="#" class="artist">마마무</a>
                             </td>
                             <td class="btns"><a href="#" class="btn-img btn-view" title="보기">보기</a></td>

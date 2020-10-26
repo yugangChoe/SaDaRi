@@ -56,7 +56,7 @@ google.charts.setOnLoadCallback(function(){ drawChart(new_option2)});
             }
 
                 google.charts.load('current', {'packages':['corechart']});
-        google.charts.setOnLoadCallback(drawChart);
+        	google.charts.setOnLoadCallback(drawChart);
   
            google.charts.load("current", {packages:['corechart']});
             google.charts.setOnLoadCallback(drawChart);

@@ -434,6 +434,11 @@
    text-align: center;
 }
         </style>
+        <script type="text/javascript">
+        function login(){
+            window.open("/Genie_Project/G_servlet?command=Login","로그인","width=470, height=430")
+        }
+        </script>
     </head>
     <body>
     <div id="wrap-body">
